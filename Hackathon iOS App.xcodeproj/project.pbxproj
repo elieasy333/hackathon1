@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		044631182AFD89E7006850C6 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044631172AFD89E7006850C6 /* Message.swift */; };
 		047329E42AFD54D200616A26 /* Hackathon_iOS_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047329E32AFD54D200616A26 /* Hackathon_iOS_AppApp.swift */; };
 		047329E62AFD54D200616A26 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047329E52AFD54D200616A26 /* ContentView.swift */; };
 		047329E82AFD54D800616A26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047329E72AFD54D800616A26 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		044631172AFD89E7006850C6 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		047329E02AFD54D200616A26 /* Hackathon iOS App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hackathon iOS App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		047329E32AFD54D200616A26 /* Hackathon_iOS_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hackathon_iOS_AppApp.swift; sourceTree = "<group>"; };
 		047329E52AFD54D200616A26 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				047329E72AFD54D800616A26 /* Assets.xcassets */,
 				047329EC2AFD54D800616A26 /* Hackathon_iOS_App.entitlements */,
 				047329E92AFD54D800616A26 /* Preview Content */,
+				044631172AFD89E7006850C6 /* Message.swift */,
 			);
 			path = "Hackathon iOS App";
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044631182AFD89E7006850C6 /* Message.swift in Sources */,
 				047329E62AFD54D200616A26 /* ContentView.swift in Sources */,
 				047329E42AFD54D200616A26 /* Hackathon_iOS_AppApp.swift in Sources */,
 			);
