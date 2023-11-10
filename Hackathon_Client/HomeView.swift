@@ -40,8 +40,8 @@ struct HomeView: View {
                 .font(.custom(FontNames.helvetica, size : 40))
                 .foregroundColor(.orange)
                 .padding(50)
-                //.background(Color(red: 0.75, green: 0.75, blue: 0.75))
-                //.cornerRadius(15)
+                .background(Color(red: 0.75, green: 0.75, blue: 0.75))
+                .cornerRadius(15)
                 .shadow(color: .blue, radius: 30)
                 .multilineTextAlignment(.center)
 
