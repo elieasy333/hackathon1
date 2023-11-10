@@ -33,7 +33,7 @@ struct ContentView: View {
                 }
                 .padding()
                 .frame(maxWidth: .infinity)
-                //.background(in: RoundedRectangle(cornerRadius: 10))
+                .background(in: RoundedRectangle(cornerRadius: 10))
                 .padding()
             }
              
