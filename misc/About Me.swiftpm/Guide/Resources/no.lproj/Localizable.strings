@@ -1,0 +1,750 @@
+/* Title of Guidebook */
+"GuideBook..title" = "Om meg";
+
+/* The title of the Welcome Message for the GuideBook */
+"GuideBook..WelcomeMessageAbout Me..title" = "Om meg";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..WelcomeMessageAbout Me..Paragraph0" = "Dette eksempelet handler bare om deg – eller om det du vil! Så gjør deg klar til å dele noe spesielt, morsomt eller annerledes, samtidig som du lærer deg SwiftUI, slik at du kan vise informasjon i flere fanevisninger.";
+
+/* Title of step named About Me */
+"GuideBook..Guide0..StepAbout Me..title" = "Om meg";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..LearningCenterContent..Paragraph1" = "![](intro.png)";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..LearningCenterContent..Paragraph2" = "Velkommen til Om meg-appen. I dette eksempelet lærer du det grunnleggende om hvordan du kan bruke [SwiftUI](glossary://SwiftUI) til å tilpasse innhold i en app med fire faner, som handler om … det du vil! Mens du utforsker dette eksempelet, kan du legge til innhold og prøve alle eksperimentene for å uttrykke deg i fanene.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..LearningCenterContent..Paragraph3" = "[Fane](doc://com.apple.documentation/documentation/swiftui/tabview)-visninger gjør det enklere å navigere i appen ved at brukerne kan se og bytte mellom flere visninger.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..LearningCenterContent..Paragraph4" = "Prøv å trykke på hver fane i appforhåndsvisningen: Hjem, Historie, Favoritter og Morsomme fakta.";
+
+/* title of the guide button */
+"GuideBook..Guide0..StepAbout Me..LearningCenterContent..GuideButtonStart Building..title" = "Begynn å bygge";
+
+/* accessibility description for guide button */
+"GuideBook..Guide0..StepAbout Me..LearningCenterContent..GuideButtonStart Building..description" = "Tilgjengelighetsbeskrivelse for knapp";
+
+/* Title for the section of tasks to complete */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..title" = "Hjem-fanen";
+
+/* Title for task */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..TaskhomeView..title" = "Utforsk det grunnleggende i SwiftUI-kode";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..TaskhomeView..PageHome Tab..title" = "Hjem-fanen";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..TaskhomeView..PageHome Tab..Paragraph5" = "`HomeView` er den første fanen i appen, og det er denne fanen brukerne ser først når de åpner appen. Du så denne fanen den første gangen du åpnet prosjektet.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..TaskhomeView..PageHome Tab..Paragraph6" = "Du kan vise appen på to måter:";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..TaskhomeView..PageHome Tab..OrderedList0..Paragraph7" = "Trykk på Kjør-knappen (▶) i verktøylinjen øverst i Swift Playgrounds for å åpne appen. Trykk på Swift-symbolet og deretter Stopp for å gå tilbake til koden.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..TaskhomeView..PageHome Tab..OrderedList0..Paragraph8" = "Åpne filen AboutMeApp for å forhåndsvise appen din. Naviger tilbake til HomeView-filen for å gå tilbake til denne gjennomgangen og Hjem-forhåndsvisningen.";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..TaskhomeView..PageHome Tab..title" = "Hjem-fanen";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..TaskhomeView..PageHome Tab..Paragraph9" = "Før du tilpasser [brukergrensesnittet](glossary://user%20interface), som er hvordan appen ser ut, bør du ta en titt for å se hvordan det er laget.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..TaskhomeView..PageHome Tab..Paragraph10" = "Når du oppretter grensesnittet, bruker du [visninger](glossary://view), som er byggeklossene for appens brukergrensesnitt, for eksempel tekst, bilder og figurer. Visninger kan også fungere som beholdere, slik at du kan plassere en visning i en annen visning. I denne filen tilpasser du visningen `HomeView`, og den inneholder andre visninger, for eksempel `Text` og `Image`.";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..TaskhomeView..PageHome Tab..title" = "Hjem-fanen";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..TaskhomeView..PageHome Tab..Paragraph11" = "Alle nye visninger må ha et [visningsinnhold](glossary://body) der du legger til alle visningene du vil vise. Siden visningen må vise noe, inneholder `body` alltid minst én visning. Her er tre vanlige visninger:";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..TaskhomeView..PageHome Tab..UnorderedList0..Paragraph12" = "[VStack](doc://com.apple.documentation/documentation/swiftui/vstack) er en visning som organiserer innholdet vertikalt fra øverst til nederst på skjermen.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..TaskhomeView..PageHome Tab..UnorderedList0..Paragraph13" = "[Text](doc://com.apple.documentation/documentation/swiftui/text) er en visning som viser en [streng](glossary://String). Husk å bruke anførselstegn rundt teksten i strengen.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..TaskhomeView..PageHome Tab..UnorderedList0..Paragraph14" = "[Image](doc://com.apple.documentation/documentation/swiftui/image) er en visning som viser et bilde, for eksempel PNG eller JPEG, eller symboler fra [SF-symboler](https://developer.apple.com/sf-symbols/).";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..TaskhomeView..PageHome Tab..title" = "Hjem-fanen";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..TaskhomeView..PageHome Tab..Paragraph15" = "En annen ting du bør legge merke til, er [visningsmodifikatorer](glossary://modifier). De vises i lister under enkelte visninger. Visningsmodifikatorer endrer hvordan visningen ser ut og oppfører seg.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..TaskhomeView..PageHome Tab..Paragraph16" = "Når du modifiserer en visning, starter du på en ny linje under visningen og legger til koden, slik du ser her.";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..TaskhomeView..PageHome Tab..title" = "Hjem-fanen";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..TaskhomeView..PageHome Tab..Paragraph17" = "`Image` bruker to modifikatorer for å sørge for at bildet ser ut og oppfører seg som forventet:";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..TaskhomeView..PageHome Tab..UnorderedList1..Paragraph18" = "[resizable](doc://com.apple.documentation/documentation/swiftui/image/resizable(capinsets:resizingmode:)) gjør at bildet kan tilpasses plassen som er tilgjengelig på skjermen, ellers vises bildet i full størrelse, noe som kan være veldig stort. Med denne modifikatoren kan du også bruke andre modifikatorer på et bilde, for eksempel `scaledToFit`.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..TaskhomeView..PageHome Tab..UnorderedList1..Paragraph19" = "[scaledToFit](doc://com.apple.documentation/documentation/swiftui/path/scaledtofit()) gir bildet beskjed om å beholde riktige proporsjoner for plassen som er tilgjengelig.";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..TaskhomeView..PageHome Tab..title" = "Hjem-fanen";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..TaskhomeView..PageHome Tab..Paragraph20" = "Fortsett for å begynne å tilpasse appen!";
+
+/* Title for task */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..title" = "Tilpass Hjem-fanen";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..Page0..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..Page0..Paragraph21" = "Begynn med å bytte ut `Image` med et nytt bilde.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..Page0..Paragraph22" = "Slik legger du til ditt eget bilde på iPad:";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..Page0..OrderedList1..Paragraph23" = "Åpne venstre sidepanel.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..Page0..OrderedList1..Paragraph24" = "Trykk på Legg til fil-knappen øverst i sidepanelet.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..Page0..OrderedList1..Paragraph25" = "Trykk på Bilde for å legge til en bilderessurs fra Bilder-appen.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..Page0..OrderedList1..Paragraph26" = "Gi bildet et navn.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..Page0..OrderedList1..Paragraph27" = "Bytt ut navnet `Placeholder` i anførselstegn med navnet på bildet ditt.";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..title" = "Tilpasse Hjem-fanen";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..Paragraph28" = "OK, nå er det på tide å ha det litt gøy. Prøv disse modifikatorene, én om gangen, for å endre formen på bildet.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..Paragraph29" = "Legg til en av disse modifikatorene under de andre bildemodifikatorene. Når du arbeider deg gjennom dem, kan du kommentere ut uønsket kode ved å skrive to skråstreker (`//`) i starten av linjen.";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..CodeBlock0" = ".clipShape(Circle())\n";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..CodeBlock1" = ".clipShape(RoundedRectangle(cornerRadius: 10))\n";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..CodeBlock2" = ".clipShape(Ellipse())\n";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..CodeBlock3" = ".clipShape(Capsule())\n";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..title" = "Tilpasse Hjem-fanen";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..Paragraph30" = "Bruk den samme formen som bildet til å legge til en ramme rundt det ved hjelp av `overlay`-modifikatoren, som legger én visning foran en annen.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..Paragraph31" = "Legg til denne koden under `clipShape`-modifikatoren.";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..CodeBlock4" = ".overlay(\n    Circle()\n        .stroke(.yellow, style: StrokeStyle(lineWidth: 15))\n)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..Paragraph32" = "Prøv å endre fargen eller `lineWidth` for overlegget.";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..title" = "Tilpasse Hjem-fanen";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..Paragraph33" = "Nå som bildet er ferdig, oppdaterer du teksten under det. Visningen [Text](doc://com.apple.documentation/documentation/swiftui/text) er en annen [innebygd visning](glossary://built-in%20view) i SwiftUI.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..Paragraph34" = "Endre `\"Your Name\"` til navnet eller tittelen på prosjektet ditt.";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..title" = "Tilpasse Hjem-fanen";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..Paragraph35" = "Velg en fontstil for visningen `Text`. Bruk automatisk fullføring til å finne forskjellige fonter:";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..OrderedList2..Paragraph36" = "Slett `.title` (inkludert punktumet `.`).";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..OrderedList2..Paragraph37" = "Skriv et punktum (`.`) for å vise og velge blant de tilgjengelige valgene, for eksempel `caption` eller `largeTitle`.";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..title" = "Tilpasse Hjem-fanen";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..Paragraph38" = "Du kan bruke en tilpasset font i stedet for en standard fontstørrelse. Kommenter ut eller rediger modifikatoren `font`, så den ser slik ut:";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..CodeBlock5" = ".font(.custom(FontNames.helvetica, size: 40))\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..Paragraph39" = "Slik viser du fontalternativene:";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..OrderedList3..Paragraph40" = "Slett `.helvetica`.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..OrderedList3..Paragraph41" = "Skriv `.` for å vise og velge en ny font.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..Paragraph42" = "Ta en titt på [System Fonts](https://developer.apple.com/fonts/system-fonts/) for å finne andre fonter, og legg dem deretter til i `FontNames` nederst i filen.";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..title" = "Tilpasse Hjem-fanen";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..Paragraph43" = "Fortsett ved å legge til andre `Text`-visningsmodifikatorer!";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..CodeBlock6" = ".foregroundColor(.blue)\n";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..CodeBlock7" = ".padding(30)\n";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..CodeBlock8" = ".background(Color(red: 0.75, green: 0.75, blue: 0.75))\n";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..CodeBlock9" = ".cornerRadius(15)\n";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..CodeBlock10" = ".shadow(color: .blue, radius: 30)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..title" = "Tilpasse Hjem-fanen";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..Paragraph44" = "Kombiner visninger og modifikatorer som bunker, SF-symboler og emojier, og husk å bruke farge, slik at navnet ditt stråler!";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..Paragraph45" = "Prøv å legge til dette eksempelet på slutten av `VStack`. Behold delene du liker, og slett resten:";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..CodeBlock11" = "HStack {\n    Image(systemName: \"sparkles\")\n        .foregroundColor(.yellow)\n    Text(\"Joyful\")\n        .font(.largeTitle)\n        .foregroundColor(.mint)\n        .padding()\n    Image(systemName: \"sparkles\")\n        .foregroundColor(.yellow)\n}\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..Paragraph46" = "Du finner andre SF-symboler ved å åpne symbolbiblioteket (✪) i verktøylinjen for å se alle valgene dine.";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..title" = "Tilpasse Hjem-fanen";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..Paragraph47" = "Gjør det enda morsommere ved å legge til en farge eller et mønster i bakgrunnen.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..Paragraph48" = "Legg til denne modifikatoren under den høyre klammeparentesen (`}`) i `VStack` og `padding`-modifikatoren.";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..CodeBlock12" = ".background(Image(\"Blue\"))\n";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..title" = "Tilpasse Hjem-fanen";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..Paragraph49" = "Nå kan du eksperimentere med alt du har lært hittil, for å tilpasse denne visningen!";
+
+/* Title for the section of tasks to complete */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..title" = "Historie-fanen";
+
+/* Title for task */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TaskstoryView..title" = "Lag en rullende historie";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TaskstoryView..PageCreate a scrolling narrative..title" = "Lag en rullende historie";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TaskstoryView..PageCreate a scrolling narrative..Paragraph50" = "Dette er `StoryView`, og her kan du vise en historie om hva du vil.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TaskstoryView..PageCreate a scrolling narrative..Paragraph51" = "Her finner du en del startkode som du kan utforske. Prøv å sveipe opp og ned i forhåndsvisningen for å se hvordan koden fungerer.";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TaskstoryView..PageCreate a scrolling narrative..title" = "Lag en rullende historie";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TaskstoryView..PageCreate a scrolling narrative..Paragraph52" = "Mens du sveipet opp eller ned, la du sannsynligvis merke til at visningen rullet! Denne [ScrollView](doc://com.apple.documentation/documentation/swiftui/scrollview) er en nyttig visning hvis du har mye innhold, for eksempel i en artikkel i en nyhetsapp. Med `ScrollView` kan brukeren rulle gjennom innholdet hvis det er lengre enn skjermen.";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TaskstoryView..PageCreate a scrolling narrative..title" = "Lag en rullende historie";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TaskstoryView..PageCreate a scrolling narrative..Paragraph53" = "En annen interessant del av denne siden er layouten og alle modifikatorene som gjør den mulig.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TaskstoryView..PageCreate a scrolling narrative..Paragraph54" = "Prøv å kommentere bort én modifikator om gangen for å se hvordan det påvirker hvordan visningen oppfører seg.";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TaskstoryView..PageCreate a scrolling narrative..title" = "Lag en rullende historie";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TaskstoryView..PageCreate a scrolling narrative..Paragraph55" = "Når du er klar, kan du fortsette for å lære nye måter å fange publikummets oppmerksomhet og gjøre historien levende på.";
+
+/* Title for task */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..title" = "Eksperimenter med forskjellige layouter og blikkfang";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..title" = "Eksperimenter med forskjellige layouter og blikkfang";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..Paragraph56" = "Bruk en fengende tittel for å fange publikummets oppmerksomhet.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..Paragraph57" = "Rediger startkoden ved å bytte ut `\"Your Story\"` med en fengende tittel. Bytt ut `\"Your Name\"` med navnet ditt.";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..title" = "Eksperimenter med forskjellige layouter og blikkfang";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..Paragraph58" = "Bruk [Dividers](doc://com.apple.documentation/documentation/swiftui/divider) til å dele opp historien i avsnitt.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..Paragraph59" = "Legg til denne koden under tekstvisningene og modifikatorene i `VStack`:";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..CodeBlock13" = "Divider()\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..Paragraph60" = "Bruk mange skillelinjer i historien for å gi deler av den luft, og for å fremheve dem.";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..title" = "Eksperimenter med forskjellige layouter og blikkfang";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..Paragraph61" = "Ta deg tid til å skrive historien din.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..Paragraph62" = "Legg til disse visningene under skillelinjen, og rediger deretter teksten:";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..CodeBlock14" = "Text(\"Everyone knows that I just love …\")\n    .padding([.top, .bottom])\nText(\"My super power is …\")\n    .padding(.bottom)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..Paragraph63" = "Modifikatoren `.padding` er veldig nyttig for å sikre at det er nok plass rundt hvert element på siden. Legg merke til hvordan det brukes en [matrise](glossary://array) for å angi padding på bare to sider i en av padding-modifikatorene.";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..title" = "Eksperimenter med forskjellige layouter og blikkfang";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..Paragraph64" = "Avhengig av hvor mye innhold du legger til, kan det hende du allerede har sett feilmeldingen «Ekstra argumenter ved posisjoner …» (eller kanskje du ser den snart). Dette er systemets måte å fortelle deg at du har mer enn ti visninger i en stabel på. SwiftUI liker ikke mer enn ti visninger som ikke er grupperte, så da må du gruppere ting!";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..Paragraph65" = "Legg til `Group` rundt objekter som hører sammen, for eksempel tittelen på historien, navnet ditt og skillelinjen. Du finner et eksempel i det neste trinnet.";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..CodeBlock15" = "Group {\n}\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..Paragraph66" = "Når du grupperer objekter, får det ingen synlig påvirkning på brukergrensesnittet, men det kan hjelpe deg med å holde oversikten over forskjellige deler av historien. Derfor bør du tenke gjennom hvordan du grupperer objektene.";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..title" = "Eksperimenter med forskjellige layouter og blikkfang";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..Paragraph67" = "Det påstås at et bilde sier mer enn tusen ord, så legg til noen bilder i historien din.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..Paragraph68" = "Hvis du vil gjøre layouten mer dynamisk, kan du prøve å legge til `Image`- og `Text`-visninger i en `HStack`.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..Paragraph69" = "Legg til denne koden etter den siste gruppen med visninger i `VStack`.";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..CodeBlock16" = "Group {\n    HStack {\n        Text(\"In my life, I feel most grateful for …\")\n        Image(\"Placeholder\")\n            .resizable()\n            .scaledToFit()\n            .cornerRadius(15)\n    }\n}\n";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..title" = "Eksperimenter med forskjellige layouter og blikkfang";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..Paragraph70" = "Prøv å bruke skillelinjer med tekst med forskjellige farger for å markere eller framheve viktige deler av historien.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..Paragraph71" = "Legg til denne koden etter den siste gruppen med visninger i `VStack` for å prøve det.";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..CodeBlock17" = "Group {\n    Divider()\n    Text(\"Get the most out of this section\")\n        .font(.title3)\n        .foregroundColor(.cyan)\n    Text(\"This is where you write something you really want to emphasize. The thing you want people to take away after reading your story.\")\n        .italic()\n    Divider()\n}\n";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..title" = "Eksperimenter med forskjellige layouter og blikkfang";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..Paragraph72" = "Hvis du vil legge til en historie på denne fanen, legger du til en `VStack` i `ScrollView`.";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..CodeBlock18" = "VStack(alignment: .leading) {\n    Group {\n        Text(\"Another Story\")\n            .font(.largeTitle)\n        Text(\"Author\")\n            .font(.subheadline)\n            .foregroundColor(.secondary)   \n        Divider()\n    }\n}\n.padding()\n.frame(maxWidth: .infinity)\n.background(in: RoundedRectangle(cornerRadius: 15))\n.padding()\n";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..title" = "Eksperimenter med forskjellige layouter og blikkfang";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..Paragraph73" = "Kombiner nå alt for å gjøre historien levende.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..Paragraph74" = "Fortsett å legge til tekst, skillelinjer, bilder, bunker, grupper, farger, fonter og overskrifter for å gjøre historien mer dynamisk og interessant.";
+
+/* Title for the section of tasks to complete */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..title" = "Favoritter-fanen";
+
+/* Title for task */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskfavoritesView..title" = "Finn ut hvordan du kan vise favorittene dine på tre forskjellige måter";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskfavoritesView..PageFavorites Tab..title" = "Favoritter-fanen";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskfavoritesView..PageFavorites Tab..Paragraph75" = "Denne fanen inneholder tre avsnitt med favoritter, som er organisert på en lignende måte. Det er en tittel øverst, en [HStack](doc://com.apple.documentation/documentation/swiftui/hstack) under, som viser bilder, tekst eller farger horisontalt, og en `Divider` som deler opp avsnittene.";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskfavoritesView..PageFavorites Tab..title" = "Favoritter-fanen";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskfavoritesView..PageFavorites Tab..Paragraph76" = "Selv om mye av den samme koden brukes i alle avsnittene, er det også noen viktige forskjeller.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskfavoritesView..PageFavorites Tab..Paragraph77" = "Bruk litt tid på å utforske koden for å se om du kan finne ut:";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskfavoritesView..PageFavorites Tab..UnorderedList2..Paragraph78" = "Hvordan justeres tekst, bilder og farger til én side?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskfavoritesView..PageFavorites Tab..UnorderedList2..Paragraph79" = "Hvorfor kan du rulle maten fra side til side?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskfavoritesView..PageFavorites Tab..UnorderedList2..Paragraph80" = "Hvordan skjules fargene?";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskfavoritesView..PageFavorites Tab..title" = "Favoritter-fanen";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskfavoritesView..PageFavorites Tab..Paragraph81" = "Begynn med å se på hvordan tekst, bilder og farger er justert til én side.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskfavoritesView..PageFavorites Tab..Paragraph82" = "Legg merke til at hvert avsnitt bruker en [HStack](doc://com.apple.documentation/documentation/swiftui/hstack) til å vise innhold og en [Spacer](doc://com.apple.documentation/documentation/swiftui/spacer) ved slutten, her …";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskfavoritesView..PageFavorites Tab..title" = "Favoritter-fanen";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskfavoritesView..PageFavorites Tab..Paragraph83" = "… og her …";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskfavoritesView..PageFavorites Tab..title" = "Favoritter-fanen";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskfavoritesView..PageFavorites Tab..Paragraph84" = "… og her …";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskfavoritesView..PageFavorites Tab..title" = "Favoritter-fanen";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskfavoritesView..PageFavorites Tab..Paragraph85" = "… og her! Som du ser, justeres visningene til den ene siden når du bruker en `HStack` og `Spacer`.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskfavoritesView..PageFavorites Tab..Paragraph86" = "Prøv å flytte `Spacer` til den første posisjonen i stabelen. Kan du gjette hva som skjer?";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskfavoritesView..PageFavorites Tab..title" = "Favoritter-fanen";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskfavoritesView..PageFavorites Tab..Paragraph87" = "Fortsett for å finne svarene på de to andre spørsmålene mens du eksperimenterer med koden.";
+
+/* Title for task */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..title" = "Tilpass Favoritter-fanen";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..title" = "Favoritter-fanen";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..Paragraph88" = "Begynn med å redigere koden for å vise yndlingshobbyene dine.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..Paragraph89" = "Legg merke til at emojier bare er [strenger](glossary://String) med tekst! Derfor er det anførselstegn rundt emojien.";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..title" = "Favoritter-fanen";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..Paragraph90" = "Hvis du legger til mange hobbyer, kan du prøve å slette `Spacer` eller redigere avstanden i `HStack` for å se om du får plass til alle yndlingshobbyene dine på skjermen. Hvis du ikke får plass, kan det hende du finner en løsning i det neste avsnittet. 😉";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..title" = "Favoritter-fanen";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..Paragraph91" = "Ser du hvorfor du kan rulle maten fra side til side?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..Paragraph92" = "Det stemmer! Den bruker en `ScrollView`. En `ScrollView` er vertikal som standard, men du kan få dem til å rulle horisontalt, slik du ser her.";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..title" = "Favoritter-fanen";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..Paragraph93" = "Bruk `ScrollView` ved å legge til flere av favorittrettene dine i listen, og se hva som skjer når objektene overskrider skjermbredden.";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..CodeBlock19" = " Text(\"🍉\")\n     .font(.system(size: 48))\n Text(\"🥖\")\n     .font(.system(size: 48))\n Text(\"🍙\")\n     .font(.system(size: 48))\n Text(\"🍫\")\n     .font(.system(size: 48))\n Text(\"🥞\")\n     .font(.system(size: 48))\n";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..title" = "Favoritter-fanen";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..Paragraph94" = "Nå skal du redigere matemojiene for å inkludere all favorittmaten din! 😋";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..title" = "Favoritter-fanen";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..Paragraph95" = "Har du funnet ut hvordan fargene er skjult?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..Paragraph96" = "Hvis ikke, får du svaret her. Når du vil legge til innhold under en tittel, kan du bruke en `DisclosureGroup`, slik du ser her.";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..title" = "Favoritter-fanen";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..Paragraph97" = "Bytt ut fargene med favorittfargene dine!";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..Paragraph98" = "Bytt ut fargene i koden med de fargene du vil. For å beholde den samme størrelsen og formen som de andre fargene i listen, må du ikke slette modifikatorene `frame` og `cornerRadius` under fargene.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..Paragraph99" = "Du kan bruke SwiftUI-farger for å bytte fargene. Åpne fargebiblioteket (🎨) i verktøylinjen for å se alle valgene.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..Paragraph100" = "Du kan også bruke RGB-farger (rødt, grønt, blått) slik:";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..CodeBlock20" = "Color(red: 0.6, green: 0.8, blue: 0.8)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..Paragraph101" = "Eller nyanser av grått:";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..CodeBlock21" = "Color(white: 0.7)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..Paragraph102" = "Eller HSB-verdier (nyanse, metning og lysstyrke) som definerer fargene:";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..CodeBlock22" = "Color(hue: 0.9, saturation: 0.5, brightness: 0.9)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..title" = "Favoritter-fanen";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..Paragraph103" = "Hvis du vil gi brukerne et hint om hva favorittfargen din er, kan du forandre tittelen ved hjelp av en `accentColor`-modifikator.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..Paragraph104" = "Legg til denne modifikatoren helt nederst i`DisclosureGroup`, under etiketten, klammeparentesen (`}`) og modifikatoren `.padding()`.";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..CodeBlock23" = ".accentColor(.purple)\n";
+
+/* Title for the section of tasks to complete */
+"GuideBook..Guide0..StepAbout Me..TaskGroup3..title" = "Morsomme fakta-fanen";
+
+/* Title for task */
+"GuideBook..Guide0..StepAbout Me..TaskGroup3..TaskfunFactsView..title" = "Finn ut mer om knapper og status";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup3..TaskfunFactsView..PageFun Facts Tab..title" = "Morsomme fakta-fanen";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup3..TaskfunFactsView..PageFun Facts Tab..Paragraph105" = "I `FunFactsView` bruker du en [Button](doc://com.apple.documentation/documentation/swiftui/button) til å endre strengen for et interessant fakta når noen trykker på den.";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup3..TaskfunFactsView..PageFun Facts Tab..title" = "Morsomme fakta-fanen";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup3..TaskfunFactsView..PageFun Facts Tab..Paragraph106" = "Det er en knapp i `VStack`. Når du trykker på den, tildeler den et tilfeldig faktum fra matrisen `allFunFacts` til `funFact`.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup3..TaskfunFactsView..PageFun Facts Tab..Paragraph107" = "`??` viser en forhåndsvalgt `String` hvis matrisen `allFunFacts` er tom.";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup3..TaskfunFactsView..PageFun Facts Tab..title" = "Morsomme fakta-fanen";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup3..TaskfunFactsView..PageFun Facts Tab..Paragraph108" = "Variabelen `funFact` er spesiell fordi den bruker en [statusegenskap](glossary://state%20property) som automatisk oppdaterer `Text`-visningen under med en ny verdi hver gang verdien for `funFact` endres.";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup3..TaskfunFactsView..PageFun Facts Tab..title" = "Morsomme fakta-fanen";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup3..TaskfunFactsView..PageFun Facts Tab..Paragraph109" = "Denne `Text`-visningen viser det morsomme faktumet. Den bruker variabelen `funFact` som [argument](glossary://argument), slik at den kan vise et nytt morsomt faktum hver gang verdien endres.";
+
+/* Title for task */
+"GuideBook..Guide0..StepAbout Me..TaskGroup3..TaskfunFactsExperiment..title" = "Som du vil";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup3..TaskfunFactsExperiment..PageFun Facts Tab..title" = "Morsomme fakta-fanen";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup3..TaskfunFactsExperiment..PageFun Facts Tab..Paragraph110" = "Begynn med å legge til mange interessante og morsomme fakta i matrisen `allFunFacts`.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup3..TaskfunFactsExperiment..PageFun Facts Tab..Paragraph111" = "Bruk et komma på slutten av hver `String` for å vise at du starter et nytt objekt i matrisen.";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup3..TaskfunFactsExperiment..PageFun Facts Tab..title" = "Morsomme fakta-fanen";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup3..TaskfunFactsExperiment..PageFun Facts Tab..Paragraph112" = "Denne siden ser bra ut, men du kan forbedre designen ved å legge til en bakgrunn. Det gjør du ved å bruke `ZStack` i koden for å legge til en `Image` under innholdet.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup3..TaskfunFactsExperiment..PageFun Facts Tab..Paragraph113" = "Legg til en `Image` mellom `ZStack` og `VStack`, slik:";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup3..TaskfunFactsExperiment..PageFun Facts Tab..CodeBlock24" = "ZStack {\n    Image(\"Green\")\n    VStack {\n";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup3..TaskfunFactsExperiment..PageFun Facts Tab..title" = "Morsomme fakta-fanen";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup3..TaskfunFactsExperiment..PageFun Facts Tab..Paragraph114" = "Når du har valgt bakgrunnsfargen, er det tid for å jobbe med knappestilen.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup3..TaskfunFactsExperiment..PageFun Facts Tab..Paragraph115" = "Prøv én, to eller alle disse knappemodifikatorene. Legg til denne modifikatoren under høyre klammeparentes (`}`) for `Button`.";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup3..TaskfunFactsExperiment..PageFun Facts Tab..CodeBlock25" = ".padding()\n";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup3..TaskfunFactsExperiment..PageFun Facts Tab..CodeBlock26" = ".foregroundColor(.white)\n";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup3..TaskfunFactsExperiment..PageFun Facts Tab..CodeBlock27" = ".background(.blue)\n";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup3..TaskfunFactsExperiment..PageFun Facts Tab..CodeBlock28" = ".clipShape(RoundedRectangle(cornerRadius: 15))\n";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup3..TaskfunFactsExperiment..PageFun Facts Tab..CodeBlock29" = ".shadow(radius: 15)\n";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup3..TaskfunFactsExperiment..PageFun Facts Tab..CodeBlock30" = ".font(.title2)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup3..TaskfunFactsExperiment..PageFun Facts Tab..Paragraph116" = "Du har brukt alle disse modifikatorene tidligere. De fleste modifikatorene fungerer i alle typer av `View`. Det er det som gjør SwiftUI til et så enkelt og effektivt verktøy!";
+
+/* Title for the section of tasks to complete */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..title" = "Bruke og opprette faner";
+
+/* Title for task */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskcontentView..title" = "Opprett et grensesnitt med faner";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskcontentView..PageTabbed Interface..title" = "Grensesnitt med faner";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskcontentView..PageTabbed Interface..Paragraph117" = "For å opprette et brukergrensesnitt med faner plasserer du visningene i en [TabView](doc://com.apple.documentation/documentation/swiftui/tabview), og deretter lister du opp hvert faneobjekt som du vil bruke i grensesnittet ditt.";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskcontentView..PageTabbed Interface..title" = "Grensesnitt med faner";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskcontentView..PageTabbed Interface..Paragraph118" = "Du lager en fane ved å opprette en [instans](glossary://instance) av visningen du vil vise når noen trykker på en fane. Den første fanevisningen i listen er `HomeView`, så det er den første fanen du ser når appen åpnes.";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskcontentView..PageTabbed Interface..title" = "Grensesnitt med faner";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskcontentView..PageTabbed Interface..Paragraph119" = "Når du har identifisert visningen du vil vise, i dette tilfellet `HomeView`, bruker du en `tabItem`-modifikator og overfører en `Label` som fanevisningen. Uten `tabItem` vil fanen for denne visningen være tom.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskcontentView..PageTabbed Interface..Paragraph120" = "Modifikatoren `tabItem` godtar bare visningene [Label](doc://com.apple.documentation/documentation/swiftui/label), [Text](doc://com.apple.documentation/documentation/swiftui/text) og [Image](doc://com.apple.documentation/documentation/swiftui/image). Hvis du inkluderer en annen visning, for eksempel [Button](doc://com.apple.documentation/documentation/swiftui/button), blir faneobjektet tomt.";
+
+/* Title for task */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskyourTab..title" = "Opprett din egen fane";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskyourTab..PageCreate Your Own Tab..title" = "Opprett din egen fane";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskyourTab..PageCreate Your Own Tab..Paragraph121" = "Nå skal du legge til din egen fane! Begynn med å oppdatere `YourTab`-filen. Lag brukergrensesnittet ditt ved hjelp av det du har lært, eller hent ideer fra andre prosjekter i appgalleriet!";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskyourTab..PageCreate Your Own Tab..Paragraph122" = "Uttrykk kreativiteten din her, og prøv deretter det neste eksperimentet for å legge til visningen din i fanelinjen.";
+
+/* Title for task */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskaddATab..title" = "Legg til fanen din";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskaddATab..PageAdd Your Tab..title" = "Legg til fanen din";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskaddATab..PageAdd Your Tab..Paragraph123" = "Legg til en ny visning i `TabView` for å legge til den nye fanen.";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskaddATab..PageAdd Your Tab..CodeBlock31" = "YourTab()\n";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskaddATab..PageAdd a Tab..title" = "Legg til en fane";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskaddATab..PageAdd a Tab..Paragraph124" = "Bruk deretter modifikatoren `tabItem` til gi visningen en `Label` som vises i listen med faner nederst i appen.";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskaddATab..PageAdd a Tab..CodeBlock32" = ".tabItem {\n     Label(\"Your Tab\", systemImage: \"heart.fill\")\n}\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskaddATab..PageAdd a Tab..Paragraph125" = "Prøv den, slik at du ser at alt fungerer!";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskaddATab..PageAdd a Tab..title" = "Legg til en fane";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskaddATab..PageAdd a Tab..Paragraph126" = "Til slutt endrer du appens navn, appsymbol og aksentfarge! Det gjør du på følgende måte:";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskaddATab..PageAdd a Tab..OrderedList4..Paragraph127" = "Åpne venstre sidepanel.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskaddATab..PageAdd a Tab..OrderedList4..Paragraph128" = "Trykk på Appinnstillinger i øvre del av sidepanelet.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskaddATab..PageAdd a Tab..OrderedList4..Paragraph129" = "Endre navnet på appen.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskaddATab..PageAdd a Tab..OrderedList4..Paragraph130" = "Velg en aksentfarge.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskaddATab..PageAdd a Tab..OrderedList4..Paragraph131" = "Trykk på Plassholder og velg et nytt symbol, eller trykk på Tilpasset for å laste opp ditt eget symbol.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskaddATab..PageAdd a Tab..Paragraph132" = "Deretter kan du bruke forhåndsvisningen for å sjekke at navnet og faneetikettene har blitt oppdatert.";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskaddATab..PageAdd a Tab..title" = "Legg til en fane";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskaddATab..PageAdd a Tab..Paragraph133" = "Hvis du bruker Mac, kan du også installere appen på datamaskinen i appinnstillingene!";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskaddATab..PageAdd a Tab..Paragraph134" = "Åpne Appinnstillinger igjen, rull helt ned, og klikk deretter på Installer på denne Macen for å teste appen din.";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskaddATab..PagePolish..title" = "Polsk";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskaddATab..PagePolish..Paragraph135" = "Se gjennom alle fanene i appen, slik at alt ser riktig ut, og at du sier det du vil si. Be noen andre om å utforske appen din og komme med forslag til forbedringer.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskaddATab..PagePolish..Paragraph136" = "Fortsett å utvikle SwiftUI-kunnskapene dine ved å ta en titt på noen av de andre prosjektene i appgalleriet.";
+
