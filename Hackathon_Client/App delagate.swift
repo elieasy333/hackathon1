@@ -46,7 +46,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         request.httpMethod = "POST"
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
 
-        let subscription = ["endpoint": "your_endpoint", "keys": ["p256dh": "your_p256dh", "auth": "your_auth"]] as [String : Any] // Replace with the actual subscription details
+        let subscription = ["endpoint": "your_endpoint", "keys": ["p256dh": "your_p256dh", "auth": "your_auth"]] as [String : Any] // (Place Holders: Replace with the actual subscription details)
         guard let httpBody = try? JSONSerialization.data(withJSONObject: subscription, options: []) else { return }
         request.httpBody = httpBody
 

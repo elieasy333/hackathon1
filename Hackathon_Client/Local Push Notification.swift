@@ -30,7 +30,7 @@ class ViewController: UIViewController {
 
 
     func dispatchNotification(){
-        let title = "You recieved a notification"
+        let title = "You recieved a new notification"
         let body = MessagePort
         
         let notificationCenter = UNUserNotificationCenter.current()
