@@ -11,38 +11,38 @@ struct ResHallView {
         .padding()
         .font(.largeTitle)
         .background(.orange)
-        .forgroundStyle(.black)
+        // // .forgroundStyle(.black)
         
         Text("There are 11 residence halls on campus for students.")
-        .forgroundStyle(.black)
+        // // .forgroundStyle(.black)
         Spacer()
 
         Text("Freshmen residence Halls")
         .font(.title)
         .background(.orange)
-        .forgroundStyle(.black)
+        // // .forgroundStyle(.black)
         .frame(maxWidth: 150, minHeight: 20)
         
         Text("-Branch Hall")
-        .forgroundStyle(.black)
+        // // .forgroundStyle(.black)
         
         Text("-Howard Hall")
-        .forgroundStyle(.black)
+        // // .forgroundStyle(.black)
         
         Text("-Campbell Hall")
-        .forgroundStyle(.black)
+        // // .forgroundStyle(.black)
         
         Text("-Langston Hall")
-        .forgroundStyle(.black)
+        // // .forgroundStyle(.black)
 
         Text("-Seward Hall")
-        .forgroundStyle(.black)
+        // // .forgroundStyle(.black)
         
         Text("-Williams Hall")
-        .forgroundStyle(.black)
+        // // .forgroundStyle(.black)
         
         Text("-Quad I")
-        .forgroundStyle(.black)
+        // // .forgroundStyle(.black)
         
       }
 
@@ -51,29 +51,25 @@ struct ResHallView {
         Text("Upper Classmen Residence Halls")
         .font(.title)
         .background(.orange)
-        .forgroundStyle(.black)
-        .frame(maxWidth: 150, minHeight: 20
+        // .forgroundStyle(.black)
+        .frame(maxWidth: 150, minHeight: 20)
               
         Text("-Gateway Hall")
-        .forgroundStyle(.black)
+        // .forgroundStyle(.black)
                
         Text("-Moore Hall")
-        .forgroundStyle(.black)
+        // .forgroundStyle(.black)
                
         Text("-Quad II")
-        .forgroundStyle(.black)
+        // .forgroundStyle(.black)
                
         Text("-Whitting Hall")
-        .forgroundStyle(.black)
+        // .forgroundStyle(.black)
       }
     }
   }
 
 }
-struct ResHallView_Previews: PreviewProvider {
-  static var previews: some View {
-    ResHallView()
-  }
-}
+
         
   
