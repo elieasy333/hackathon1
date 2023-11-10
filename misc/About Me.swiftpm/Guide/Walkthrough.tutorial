@@ -1,0 +1,524 @@
+@GuideBook(title: "About Me", icon: title.png, background: titleBackground.png, firstFile: ContentView.swift) {
+    @WelcomeMessage(title: "About Me") {
+        This sample is all about you, or anything you want! So get ready to share something special, funny, or different, while learning SwiftUI to display information across multiple tab views.
+    }
+    @Guide {
+        @Step(title: "About Me") {
+            @ContentAndMedia {
+                ![](intro.png)  
+
+                Welcome to the About Me app. In this sample, you’ll learn the basics of using [SwiftUI](glossary://SwiftUI) to customize content in a four tabbed app all about … anything you want! While you explore this sample, add content and try all of the experiments to express yourself in each tab.
+                            
+                [Tab](doc://com.apple.documentation/documentation/swiftui/tabview) views help people navigate through your app by allowing them to see and switch between multiple views. 
+                
+                Try tapping each of the tabs in the App Preview: Home, Story, Favorites, and Fun Facts.
+
+                @GuideButton(type: walkthrough, title: "Start Building", description: "AX description for button")
+            }
+            @TaskGroup(title: "Home Tab") {
+                @Task(type: walkthrough, title: "Explore the fundamentals of SwiftUI code", id: "homeView", file: HomeView.swift) {
+                    
+                    @Page(id: "HomeView", title: "Home Tab") {
+                        The `HomeView` is the first tab of your app, and it’s the first thing someone sees when they launch your app. You’ve seen this in action already, when you first opened the project.
+                        
+                        You can view your app in two ways:
+                        1. Tap the Run button (▶) in the toolbar at the top of Swift Playgrounds to launch your app. Press the Swift icon and then Stop to return to the code.
+                        2. To preview your app, open the AboutMeApp file. To return to this walkthrough and Home preview, navigate back to the HomeView file.
+                    }
+                    @Page(id: "HomeView.struct", title: "Home Tab") {
+                        Before you customize the [user interface](glossary://user%20interface), the visual appearance of your app, take a look around to see how it’s built.
+                        
+                        To create the interface, you‘ll use [views](glossary://view), building blocks of your app‘s user interface, such as text, image, and  shapes. Views can also act as containers, allowing you to piece them together by placing one view inside another. In this file, `HomeView` is the view you‘re customizing, and it contains other views, like `Text` and `Image`.
+                    }
+                    @Page(id: "HomeView.views", title: "Home Tab") {
+                        Each new view needs a [body](glossary://body), where you add all of the views that you want to display. Because the view needs to display something, the `body` always contains at least one view. 
+                        Three common views are:  
+                        
+                        * [VStack](doc://com.apple.documentation/documentation/swiftui/vstack), a view that organizes contents vertically from top to bottom on the screen. 
+                        * [Text](doc://com.apple.documentation/documentation/swiftui/text), a view that displays a [String](glossary://String). Be sure to include quotation marks around the text in your String.
+                        * [Image](doc://com.apple.documentation/documentation/swiftui/image), a view that displays an image like a PNG or JPEG, or icons from [SF Symbols](https://developer.apple.com/sf-symbols/).
+                     
+                    }
+                    @Page(id: "HomeView.modifiers", title: "Home Tab") {
+                        Another thing to notice are [view modifiers](glossary://modifier). You can see these in lists under some views. View modifiers change the appearance and behavior of a view.
+                        
+                        When you modify a view, start a new line below the view and add your code, just like you see here.
+                    }
+                    @Page(id: "HomeView.Image.resizable", title: "Home Tab") {
+                        Your `Image` uses two modifiers to ensure the image looks and acts like you expect: 
+                        
+                        * [resizable](doc://com.apple.documentation/documentation/swiftui/image/resizable(capinsets:resizingmode:)) allows the image to adapt to the available space on the screen; otherwise, the image appears at its full size, which may be very large. This modifier also allows you to use other modifiers on an image, like `scaledToFit`.
+                        
+                        * [scaledToFit](doc://com.apple.documentation/documentation/swiftui/path/scaledtofit()) tells the image to maintain the correct aspect ratio for the avaiable space.
+                    }
+                    @Page(id: "HomeView.getStarted", title: "Home Tab") {
+                        Keep going to start customizing the app! 
+                    }  
+                }
+                
+                @Task(type: experiment, title: "Customize the Home tab", id: "home", file: HomeView.swift) {
+                    
+                    @Page(id: "HomeView.Image", title: "") {
+                        Start by replacing the `Image` with a new photo.
+                       
+                        To add your own photo on iPad:
+                        1. Open the left sidebar.
+                        2. Tap the Add File button at the top of the sidebar.
+                        3. Tap Photo to add a photo asset from your Photos app.
+                        4. Give your photo a name.
+                        5. Replace the name `Placeholder` in quotes with the name of your photo.
+                    }
+                    @Page(id: "HomeView.Image.modifiers", title: "Customizing the Home Tab", isAddable: true) {
+                        Okay, now for the fun part. Try these modifications, one at a time, to change the shape of your photo. 
+                        
+                        Add one of the following modifiers below your other image modifiers. As you work through them, comment out any unwanted code by placing two slashes (`//`) at the beginning of the line.
+                        ```
+                        .clipShape(Circle())
+                        ```
+                        ```
+                        .clipShape(RoundedRectangle(cornerRadius: 10))
+                        ```
+                        ```
+                        .clipShape(Ellipse())
+                        ```
+                        ```
+                        .clipShape(Capsule())
+                        ```
+                    }
+                    @Page(id: "HomeView.Image.overlay", title: "Customizing the Home Tab", isAddable: true) {
+                        Using the same shape as your photo, add a border around the image using the `overlay` modifier, which layers one view in front of another.
+                        
+                        Add this code below your `clipShape` modifier.
+                        ```
+                        .overlay(
+                            Circle()
+                                .stroke(.yellow, style: StrokeStyle(lineWidth: 15))
+                        )
+                        ```
+                        Try changing the color or `lineWidth` of the overlay.
+                    }
+                    @Page(id: "HomeView.Text", title: "Customizing the Home Tab") {
+                        Now that your picture is set, update the text below it. The [Text](doc://com.apple.documentation/documentation/swiftui/text) view is another [built-in view](glossary://built-in%20view) provided by SwiftUI. 
+
+                        Edit `"Your Name"` to be your name or the title of your project.
+                    }
+                    @Page(id: "HomeView.Text.modifiers", title: "Customizing the Home Tab") {
+                        Choose a font style for your `Text` view. Use autocomplete to find different fonts: 
+                        
+                        1. Delete `.title` (including the period, `.`).
+                        2. Type in the period (`.`) to see and select from the available options, such as `caption` or `largeTitle`.
+                    }
+                    @Page(id: "HomeView.Text.modifiers", title: "Customizing the Home Tab", isAddable: true) {
+                        Instead of choosing a standard font size, you could use a custom font. Comment out or edit the `font` modifier to look like this: 
+                        ```
+                        .font(.custom(FontNames.helvetica, size: 40))
+                        ```
+                        To see your font options:
+                        1. Delete `.helvetica`.
+                        2. Type in `.` to see and select a new font.
+                        
+                        Check out [System Fonts](https://developer.apple.com/fonts/system-fonts/) to find other fonts, then add them to `FontNames` at the bottom of the file.
+                    }
+                    @Page(id: "HomeView.Text.moreModifiers", title: "Customizing the Home Tab", isAddable: true) {
+                        Keep going by adding some other `Text` view modifiers!
+                        
+                        ```
+                        .foregroundColor(.blue)
+                        ```
+                        ```
+                        .padding(30)
+                        ```
+                        ```
+                        .background(Color(red: 0.75, green: 0.75, blue: 0.75))
+                        ```
+                        ```
+                        .cornerRadius(15)
+                        ```
+                        ```
+                        .shadow(color: .blue, radius: 30)
+                        ```
+                    }
+                    @Page(id: "HomeView.stacksOnStacks", title: "Customizing the Home Tab", isAddable: true) {
+                        Mix and match views and modifiers like stacks, SF Symbols, emoji, and be sure to add some color to make your name sparkle!
+                        
+                        Try adding this example at the end of your `VStack`, keep any parts that you like and delete the rest:
+                        ```
+                        HStack {
+                            Image(systemName: "sparkles")
+                                .foregroundColor(.yellow)
+                            Text("Joyful")
+                                .font(.largeTitle)
+                                .foregroundColor(.mint)
+                                .padding()
+                            Image(systemName: "sparkles")
+                                .foregroundColor(.yellow)
+                        }
+                        ```
+                        To find other SF Symbols, open the symbols library (✪) in the tool bar to see all of your options.
+                    }
+                    @Page(id: "HomeView.Image.background", title: "Customizing the Home Tab", isAddable: true) {
+                        Keep the fun going by adding a background color or pattern. 
+                        
+                        Add this modifier below the closing brace (`}`) of the `VStack` and `padding` modifier.
+                        ```
+                        .background(Image("Blue"))
+                        ```
+                    }
+                    @Page(id: "HomeView.wrapUp", title: "Customizing the Home Tab", isAddable: true) {
+                        Now experiment with all the things you‘ve learned so far to make this view totally, uniquely you!
+                    }
+                }
+            }
+            @TaskGroup(title: "Story Tab") {
+                @Task(type: walkthrough, title: "Create a scrolling narrative", id: "storyView", file: StoryView.swift) {
+                    
+                    @Page(id: "StoryView.starterCode", title: "Create a scrolling narrative") {
+                        This is the `StoryView`, where you can display a story about anything you want. 
+                        
+                        There is some starter code here for you to explore. Try swiping up and down in the preview to test how this code works.
+                    }
+                    @Page(id: "StoryView.scrollView", title: "Create a scrolling narrative") {
+                         While you were swiping up and down, you probably noticed that the view scrolled! This [ScrollView](doc://com.apple.documentation/documentation/swiftui/scrollview) is a helpful view if you plan on having a lot of content, like an article in a news app. A `ScrollView` makes it possible for people to scroll through your content if it exceeds the length of the screen.
+                    }
+                    @Page(id: "StoryView.modifiers", title: "Create a scrolling narrative") {
+                         Another fancy part of this page is the layout and all of the modifiers that make that happen. 
+                         
+                         Try commenting out one modifier at a time to see how that affects the view’s behavior.
+                    }
+                    @Page(id: "StoryView", title: "Create a scrolling narrative") {
+                         When you’re ready, keep going to learn new ways to grab your audience and make your story come to life.
+                    }
+                }
+                @Task(type: experiment, title: "Experiment with various layouts and attention grabbers", id: "trustYourVoice", file: StoryView.swift) {
+                    
+                    @Page(id: "StoryView.intro", title: "Experiment with various layouts and attention grabbers") {
+                        Grab your audience with a catchy title. 
+                        
+                        Edit the starter code by replacing `"Your Story"` with a catchy title. Replace `"Your Name"` with your name. 
+                    }
+                    @Page(id: "StoryView.divider", title: "Experiment with various layouts and attention grabbers", isAddable: true) {
+                        Use [Dividers](doc://com.apple.documentation/documentation/swiftui/divider) to add sections to your story. 
+                        
+                        Add this code below the text views and modifiers inside the `VStack`:
+                        ```
+                        Divider()
+                        ```
+                        Use dividers liberally throughout your story to give space and emphasis to different parts of your story.
+                    }
+                    @Page(id: "StoryView.story", title: "Experiment with various layouts and attention grabbers", isAddable: true) {
+                        Now, take time to write your story. 
+                        
+                        Add these views below the divider and edit the text:
+                        ```
+                        Text("Everyone knows that I just love …")
+                            .padding([.top, .bottom])
+                        Text("My super power is …")
+                            .padding(.bottom)
+                        ```
+                        The `.padding` modifier is very helpful for ensuring there is enough space around each of your page elements. Notice how an [array](glossary://array) is used to specify padding on only two sides in one of the padding modifiers.
+                    }
+                    @Page(id: "StoryView.group", title: "Experiment with various layouts and attention grabbers", isAddable: true) {
+                        Depending on how much content you add, you might have already hit an error that says, "Extra arguments at positions …" (or maybe you soon will). This is the system’s way of telling you that you have more than 10 views inside a stack. SwiftUI doesn’t like more than 10 ungrouped views, so, you’ll need to group stuff!
+                        
+                        Add `Group` around items that go together, like the title of your story, your name, and the divider. For an example, go to the next step.
+
+                        ```
+                        Group {
+                        }
+                        ```           
+                        Grouping items doesn’t have a visual effect on your UI, but can help you keep track of different sections of your story, so be thoughtful about how you group items together.
+                    }
+                    @Page(id: "StoryView.image", title: "Experiment with various layouts and attention grabbers", isAddable: true) {
+                        They say a picture is worth a thousand words, so add some images throughout your story. 
+                        
+                        To make your layout more dynamic, try adding `Image` and `Text` views within an `HStack`.
+                        
+                        Add this code below the last group of views in your `VStack`.
+                        ```
+                        Group {
+                            HStack {
+                                Text("In my life, I feel most grateful for …")
+                                Image("Placeholder")
+                                    .resizable()
+                                    .scaledToFit()
+                                    .cornerRadius(15)
+                            }
+                        }
+                        ```                 
+                    }
+                    
+                    @Page(id: "StoryView.highlight", title: "Experiment with various layouts and attention grabbers", isAddable: true) {
+                        Try using dividers with different colored text to highlight or emphasize important parts of your story.
+                        
+                        Add the following code below the last group of views in the `VStack` to try it out.
+                        ```
+                        Group {
+                            Divider()
+                            Text("Get the most out of this section")
+                                .font(.title3)
+                                .foregroundColor(.cyan)
+                            Text("This is where you write something you really want to emphasize. The thing you want people to take away after reading your story.")
+                                .italic()
+                            Divider()
+                        }
+                        ```                 
+                    }
+                    @Page(id: "StoryView.secondArticle", title: "Experiment with various layouts and attention grabbers", isAddable: true) {
+                        If you wanted to add another story to this tab, add another `VStack` inside the `ScrollView`.
+                        ```
+                        VStack(alignment: .leading) {
+                            Group {
+                                Text("Another Story")
+                                    .font(.largeTitle)
+                                Text("Author")
+                                    .font(.subheadline)
+                                    .foregroundColor(.secondary)   
+                                Divider()
+                            }
+                        }
+                        .padding()
+                        .frame(maxWidth: .infinity)
+                        .background(in: RoundedRectangle(cornerRadius: 15))
+                        .padding()
+                        ```
+                    }
+                    @Page(id: "StoryView.end", title: "Experiment with various layouts and attention grabbers", isAddable: true) {
+                        Now put it all together to make your story come to life. 
+                        
+                        Keep adding text, dividers, images, stacks, groups, colors, fonts, and headings to make your story more dynamic and interesting.
+                    }
+                }
+                
+            }
+            
+            @TaskGroup(title: "Favorites Tab") {
+                @Task(type: walkthrough, title: "Learn to show your favorites three different ways", id: "favoritesView", file: FavoritesView.swift) {
+                    
+                    @Page(id: "FavoritesView.composition", title: "Favorites Tab") {
+                        This tab contains three sections of favorites, organized in a similar way. There is a title at the top, an [HStack](doc://com.apple.documentation/documentation/swiftui/hstack) below it that displays images, text, or colors horizontally, and a `Divider` to break up the sections.
+                    }
+                    @Page(id: "FavoritesView.questions", title: "Favorites Tab") {
+                        While there is a lot of the same code in each section, there are some key differences worth pointing out.
+                        
+                        Take a minute to explore the code and see if you can figure out:
+                        * How text, images, and colors are aligned to one side?
+                        * Why can you scroll the foods from side to side?
+                        * How the colors are hidden? 
+                    }
+                    @Page(id: "FavoritesView.alignment", title: "Favorites Tab") {
+                        Start by looking at how text, images, and colors align to one side. 
+                        
+                        Notice that each section uses an [HStack](doc://com.apple.documentation/documentation/swiftui/hstack) to display content and a [Spacer](doc://com.apple.documentation/documentation/swiftui/spacer) at the end, here …
+                    }
+                    @Page(id: "FavoritesView.alignment1", title: "Favorites Tab") {
+                        … and here …
+                    }
+                    @Page(id: "FavoritesView.alignment2", title: "Favorites Tab") {
+                        … and here … 
+                    }
+                    @Page(id: "FavoritesView.alignment3", title: "Favorites Tab") {
+                        … and here! As you can see, using an `HStack` and `Spacer` aligns views to one side. 
+                        
+                        Try moving the `Spacer` to the first position in the stack. Can you guess what happens?
+                    }
+                    @Page(id: "FavoritesView.nextQuestion", title: "Favorites Tab") {
+                        Keep going to find out the answers to the other two questions while you experiment with the code. 
+                    }
+                }
+                @Task(type: experiment, title: "Customize the Favorites tab", id: "bestBetter", file: FavoritesView.swift) {
+                    
+                    @Page(id: "FavoritesView.edithobbies", title: "Favorites Tab") {
+                        Start by editing the code to represent your favorite hobbies. 
+                        
+                        Notice that emoji are just text [Strings](glossary://String)! That’s why there are quotation marks around the emoji. 
+                    }
+                    @Page(id: "FavoritesView.hobbies", title: "Favorites Tab") {
+                        If you choose to add a lot of hobbies, try deleting the `Spacer` or editing the spacing of the `HStack` to see if you can fit all of your favorite hobbies on the screen. If you can’t, this next section might help you out. 😉   
+                    }
+                    @Page(id: "FavoritesView.scroll", title: "Favorites Tab") {
+                       Do you see why you can scroll the foods from side to side?
+                        
+                       Correct! It uses a `ScrollView`. A `ScrollView` is vertical by default, but you can make them scroll horizontally, like you see here.
+                    }
+                    @Page(id: "FavoritesView.foods", title: "Favorites Tab") {
+                       Use the `ScrollView` by adding more of your favorite foods to the list and see what happens when the items exceed the width of the screen.
+                       ```
+                        Text("🍉")
+                            .font(.system(size: 48))
+                        Text("🥖")
+                            .font(.system(size: 48))
+                        Text("🍙")
+                            .font(.system(size: 48))
+                        Text("🍫")
+                            .font(.system(size: 48))
+                        Text("🥞")
+                            .font(.system(size: 48))
+                        ```
+                    }
+                    @Page(id: "FavoritesView.editFood", title: "Favorites Tab") {
+                        Now edit the food emoji to include all of your favorite foods! 😋
+                    }
+                    @Page(id: "FavoritesView.disclosures", title: "Favorites Tab") {
+                        Have you figured out how to the colors are hidden? 
+                        
+                        If not, look no further. To add content below a title, you can use a `DisclosureGroup` like you see here.
+                    }
+                    @Page(id: "FavoritesView.colors", title: "Favorites Tab") {
+                        Now change the colors to your favorite colors! 
+                        
+                        Replace the colors in the code with any color of your choice. To keep the same size and shape of the other colors in the list, don‘t delete the `frame` and `cornerRadius` modifiers below the colors.
+                        
+                        To replace the colors, you can use SwiftUI colors. Open the colors library (🎨) in the tool bar to see all of your options.
+                        
+                        Or you can use RGB (red, green, blue) colors like this: 
+                        ```
+                        Color(red: 0.6, green: 0.8, blue: 0.8)
+                        ```
+                        Or shades of gray:
+                        ```
+                        Color(white: 0.7)
+                        ```
+                        Or HSB (hue, saturation, and brightness) values to define the colors:
+                        ```
+                        Color(hue: 0.9, saturation: 0.5, brightness: 0.9)
+                        ```
+                    }
+                    @Page(id: "FavoritesView.accent", title: "Favorites Tab") {
+                       If you want to give people a hint about what your favorite color is, you can change the title using an `accentColor` modifier. 
+                        
+                        Add this modifier to the very end of the `DisclosureGroup`, below the label, curly brace (`}`), and `.padding()` modifier.
+                        ```
+                        .accentColor(.purple)
+                        ```
+                    }
+                   
+                }
+            }
+        
+            @TaskGroup(title: "Fun Facts Tab") {
+                @Task(type: walkthrough, title: "Learn about buttons and State", id: "funFactsView", file: FunFactsView.swift) {
+                    
+                    @Page(id: "FunFactsView.funFactsView", title: "Fun Facts Tab") {
+                        In `FunFactsView` you’ll use a [Button](doc://com.apple.documentation/documentation/swiftui/button) to change a fun fact string whenever someone taps it.
+                    }
+                    @Page(id: "FunFactsView.button", title: "Fun Facts Tab") {
+                        Inside the `VStack` you’ll see a button. When you tap this button it assigns a random fact from the `allFunFacts` array to `funFact`.
+                        
+                        The `??` gives a default `String` in case the `allFunFacts` array is empty.
+                    }
+                    @Page(id: "FunFactsView.stateVariable", title: "Fun Facts Tab") {
+                        The `funFact` variable is special because it uses a [state property](glossary://state%20property), which automatically updates the `Text` view below with a new value whenever the value of `funFact` changes.
+                    }
+                    @Page(id: "FunFactsView.textView", title: "Fun Facts Tab") {
+                        This `Text` view shows the fun fact. It uses the `funFact` variable as its [argument](glossary://argument) so it can show a new fun fact whenever the value changes.
+                    }
+                }
+                @Task(type: experiment, title: "Make it yours", id: "funFactsExperiment", file: FunFactsView.swift) { 
+                    
+                    @Page(id: "FunFactsView.funFacts", title: "Fun Facts Tab") {
+                        Start by adding a bunch of fun and funny facts to the `allFunFacts` array. 
+                        
+                        Be sure to add a comma at the end of each `String` to show that you are starting a new item in the array.
+                    }
+                    @Page(id: "FunFactsView.color", title: "Fun Facts Tab", isAddable: false) {
+                        This page is nice, but to improve the design, add a background. To do this, use the `ZStack` in the code to add an `Image` below the content.
+                        
+                        Add an `Image` between the `ZStack` and `VStack`, like this:
+                        ```
+                        ZStack {
+                            Image("Green")
+                            VStack {
+                        ```
+                    }
+                    @Page(id: "FunFactsView.button.modifiers", title: "Fun Facts Tab") {
+                        With the background color set, it’s time to work on styling the button. 
+                        
+                        Try out one, two, or all of these button modifiers. Add this modifier below the closing brace (`}`) of the `Button`. 
+                        ```
+                        .padding()
+                        ```
+                        ```
+                        .foregroundColor(.white)
+                        ```
+                        ```
+                        .background(.blue)
+                        ```
+                        ```
+                        .clipShape(RoundedRectangle(cornerRadius: 15))
+                        ```
+                        ```
+                        .shadow(radius: 15)
+                        ```
+                        ```
+                        .font(.title2)
+                        ```
+                        You’ve used all of these modifiers before. Most modifiers work when applied to any type of `View`; this is the beauty and simplicity of SwiftUI!
+                    }
+                }
+            }
+            @TaskGroup(title: "Using and Making Tabs") {
+                @Task(type: walkthrough, title: "Set up a tabbed interface", id: "contentView", file: ContentView.swift) {
+                    
+                    @Page(id: "ContentView.tabView", title: "Tabbed Interface") {
+                        To create a tabbed user interface, place the views within a [TabView](doc://com.apple.documentation/documentation/swiftui/tabview), then list each tab item that you want in your interface.
+                    }
+                    @Page(id: "ContentView.homeTab", title: "Tabbed Interface") {
+                        To make a tab, create an [instance](glossary://instance) of the view you want to display when someone taps a tab. The first tab view in the list is `HomeView`, so it’s the first tab you see when the app launches.
+                    }
+                    @Page(id: "ContentView.tabItem", title: "Tabbed Interface") {
+                        After identifying the view that you want to display — in this case `HomeView` — use a `tabItem` modifier and pass in a `Label` as the tab display. Without a `tabItem`, the tab for this view appears empty.
+                        
+                        The `tabItem` modifier only accepts [Label](doc://com.apple.documentation/documentation/swiftui/label), [Text](doc://com.apple.documentation/documentation/swiftui/text), and [Image](doc://com.apple.documentation/documentation/swiftui/image) views. Including any other type of view, such as [Button](doc://com.apple.documentation/documentation/swiftui/button), results in an empty tab item.
+                    }  
+                }
+                @Task(type: experiment, title: "Create your own tab", id: "yourTab", file: YourTab.swift) {
+                    @Page(id: "ContentView.yourTab", title: "Create Your Own Tab") {
+                        Now it’s time to add a new tab that’s all yours! Start by updating the `YourTab` file. Use what you’ve learned to create your UI, or pull in ideas from other projects in the App Gallery! 
+                        
+                        Express your creativity here, then try the next experiment to add your view to the tab bar. 
+                    }
+            
+                }
+                @Task(type: experiment, title: "Add your tab", id: "addATab", file: ContentView.swift) {
+                    @Page(id: "ContentView.addATab", title: "Add Your Tab", isAddable: true) {
+                       Add your new tab by adding another view to `TabView`. 
+                       ```
+                       YourTab()
+                       ```
+                    }
+                    @Page(id: "ContentView.tabItem.add", title: "Add a Tab", isAddable: true) {
+                       Then use the `tabItem` modifier to give your view a `Label` that shows up in your list of tabs at the bottom of your app. 
+                       ```
+                       .tabItem {
+                            Label("Your Tab", systemImage: "heart.fill")
+                       }
+                       ```
+                       Then test it out to make sure it works!
+                    }
+                    @Page(id: "ContentView.color", title: "Add a Tab", isAddable: true) {
+                       Finally, change the name, app icon, and accent color of your app! 
+                       To do this: 
+                       1. Open the left sidebar.
+                       2. Tap App Settings near the top of the sidebar.
+                       3. Change the name of the app.
+                       4. Choose an accent color.
+                       5. Tap Placeholder and choose a new icon or tap Custom to upload your own icon.
+                       
+                       Then check in the preview to see that your name and tab labels have updated.
+                    }
+                    @Page(id: "ContentView.mac", title: "Add a Tab", isAddable: true) {
+                       If you’re on a Mac, you can also install your app on your computer in App Settings! 
+                       
+                       Open App Settings again, scroll to the bottom, and click “Install on this Mac” to test your app.  
+                    }
+                    @Page(id: "ContentView.allTheThings", title: "Polish") {
+                        Review each tab of your app and make sure everything looks right and says what you want it to say. Ask someone else to explore your app to see if they have suggestions to make it even better. 
+                        
+                        Next, check out some of the other projects in the App Gallery to continue building your SwiftUI skills.
+                    }
+            
+                }
+            }
+        }
+    }
+}

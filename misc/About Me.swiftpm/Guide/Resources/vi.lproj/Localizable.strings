@@ -1,0 +1,750 @@
+/* Title of Guidebook */
+"GuideBook..title" = "Giới thiệu về tôi";
+
+/* The title of the Welcome Message for the GuideBook */
+"GuideBook..WelcomeMessageAbout Me..title" = "Giới thiệu về tôi";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..WelcomeMessageAbout Me..Paragraph0" = "Mẫu này hoàn toàn là về bạn hoặc bất kỳ thứ gì mà bạn muốn! Vậy nên hãy sẵn sàng chia sẻ điều gì đó đặc biệt, thú vị hoặc khác biệt trong khi học SwiftUI để hiển thị thông tin trên nhiều chế độ xem tab.";
+
+/* Title of step named About Me */
+"GuideBook..Guide0..StepAbout Me..title" = "Giới thiệu về tôi";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..LearningCenterContent..Paragraph1" = "![](intro.png)";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..LearningCenterContent..Paragraph2" = "Chào mừng đến ứng dụng Giới thiệu về tôi. Trong mẫu này, bạn sẽ học các khái niệm cơ bản về sử dụng [SwiftUI](glossary://SwiftUI) để tùy chỉnh nội dung trong một ứng dụng gồm bốn tab về … bất kỳ thứ gì mà bạn muốn! Trong khi bạn khám phá mẫu này, hãy thêm nội dung và tiến hành tất cả các thử nghiệm để thể hiện bản thân mình trong từng tab.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..LearningCenterContent..Paragraph3" = "Chế độ xem [tab](doc://com.apple.documentation/documentation/swiftui/tabview) giúp mọi người điều hướng qua ứng dụng của bạn bằng cách cho phép họ xem và chuyển đổi giữa nhiều chế độ xem.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..LearningCenterContent..Paragraph4" = "Thử chạm vào từng tab trong Bản xem trước ứng dụng: Trang chủ, Câu chuyện, Mục ưa thích và Sự thật thú vị.";
+
+/* title of the guide button */
+"GuideBook..Guide0..StepAbout Me..LearningCenterContent..GuideButtonStart Building..title" = "Bắt đầu xây dựng";
+
+/* accessibility description for guide button */
+"GuideBook..Guide0..StepAbout Me..LearningCenterContent..GuideButtonStart Building..description" = "Mô tả AX cho nút";
+
+/* Title for the section of tasks to complete */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..title" = "Tab Trang chủ";
+
+/* Title for task */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..TaskhomeView..title" = "Khám phá các nguyên tắc cơ bản của mã SwiftUI";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..TaskhomeView..PageHome Tab..title" = "Tab Trang chủ";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..TaskhomeView..PageHome Tab..Paragraph5" = "`HomeView` là tab đầu tiên trong ứng dụng của bạn và là thứ đầu tiên mà người khác nhìn thấy khi họ khởi chạy ứng dụng của bạn. Bạn đã thấy tab này hoạt động khi mở dự án lần đầu tiên.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..TaskhomeView..PageHome Tab..Paragraph6" = "Bạn có thể xem ứng dụng của mình theo hai cách:";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..TaskhomeView..PageHome Tab..OrderedList0..Paragraph7" = "Chạm vào nút Chạy (▶) trong thanh công cụ ở đầu Swift Playgrounds để khởi chạy ứng dụng của bạn. Nhấn biểu tượng Swift và sau đó Dừng để trở về mã.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..TaskhomeView..PageHome Tab..OrderedList0..Paragraph8" = "Để xem trước ứng dụng của bạn, hãy mở tệp AboutMeApp. Để trở về hướng dẫn này và bản xem trước Trang chủ, hãy điều hướng quay lại tệp HomeView.";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..TaskhomeView..PageHome Tab..title" = "Tab Trang chủ";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..TaskhomeView..PageHome Tab..Paragraph9" = "Trước khi bạn tùy chỉnh [giao diện người dùng](glossary://user%20interface), là diện mạo trực quan của ứng dụng, hãy xem ứng dụng được xây dựng như thế nào.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..TaskhomeView..PageHome Tab..Paragraph10" = "Để tạo ra một giao diện, bạn sẽ sử dụng các [chế độ xem](glossary://view), là các khối xây dựng của giao diện người dùng của ứng dụng, ví dụ như văn bản, hình ảnh và hình dạng. Các chế độ xem cũng có thể đóng vai trò là các bộ chứa, cho phép bạn ghép chúng lại với nhau bằng cách đặt một chế độ xem bên trong một chế độ xem khác. Trong tệp này, `HomeView` là chế độ xem mà bạn đang tùy chỉnh và chứa các chế độ xem khác, như `Text` và `Image`.";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..TaskhomeView..PageHome Tab..title" = "Tab Trang chủ";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..TaskhomeView..PageHome Tab..Paragraph11" = "Mỗi chế độ xem mới cần có một [phần thân](glossary://body), là nơi bạn thêm tất cả các chế độ xem mà bạn muốn hiển thị. Vì chế độ xem cần hiển thị nội dung nào đó nên `body` luôn chứa ít nhất một chế độ xem. Ba chế độ xem phổ biến là:";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..TaskhomeView..PageHome Tab..UnorderedList0..Paragraph12" = "[VStack](doc://com.apple.documentation/documentation/swiftui/vstack), một chế độ xem sắp xếp nội dung theo chiều dọc từ trên xuống dưới trên màn hình.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..TaskhomeView..PageHome Tab..UnorderedList0..Paragraph13" = "[Văn bản](doc://com.apple.documentation/documentation/swiftui/text), một chế độ xem hiển thị một [Chuỗi](glossary://String). Đảm bảo bao gồm dấu ngoặc kép xung quanh văn bản trong Chuỗi của bạn.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..TaskhomeView..PageHome Tab..UnorderedList0..Paragraph14" = "[Hình ảnh](doc://com.apple.documentation/documentation/swiftui/image), một chế độ xem hiển thị một hình ảnh như PNG hoặc JPEG hay các biểu tượng từ [Ký hiệu SF](https://developer.apple.com/sf-symbols/).";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..TaskhomeView..PageHome Tab..title" = "Tab Trang chủ";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..TaskhomeView..PageHome Tab..Paragraph15" = "Một điều khác cần lưu ý là các [trình sửa đổi chế độ xem](glossary://modifier). Bạn có thể nhìn thấy những trình sửa đổi này trong các danh sách trong một số chế độ xem. Các trình sửa đổi chế độ xem thay đổi giao diện và hoạt động của một chế độ xem.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..TaskhomeView..PageHome Tab..Paragraph16" = "Khi bạn sửa đổi một chế độ xem, hãy bắt đầu một dòng mới bên dưới chế độ xem và thêm mã của bạn, giống như bạn nhìn thấy tại đây.";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..TaskhomeView..PageHome Tab..title" = "Tab Trang chủ";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..TaskhomeView..PageHome Tab..Paragraph17" = "`Image` của bạn sử dụng hai trình sửa đổi để đảm bảo hình thức và hoạt động của hình ảnh giống như bạn dự kiến:";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..TaskhomeView..PageHome Tab..UnorderedList1..Paragraph18" = "Trình sửa đổi [có thể định cỡ lại](doc://com.apple.documentation/documentation/swiftui/image/resizable(capinsets:resizingmode:)) cho phép hình ảnh điều chỉnh theo không gian có sẵn trên màn hình; ngược lại, hình ảnh xuất hiện với kích cỡ đầy đủ, có thể rất lớn. Trình sửa đổi này cũng cho phép bạn sử dụng các trình sửa đổi khác trên hình ảnh, ví dụ như `scaledToFit`.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..TaskhomeView..PageHome Tab..UnorderedList1..Paragraph19" = "[scaledToFit](doc://com.apple.documentation/documentation/swiftui/path/scaledtofit()) yêu cầu hình ảnh duy trì đúng tỷ lệ khung hình cho không gian có sẵn.";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..TaskhomeView..PageHome Tab..title" = "Tab Trang chủ";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..TaskhomeView..PageHome Tab..Paragraph20" = "Tiếp tục thực hiện để bắt đầu tùy chỉnh ứng dụng!";
+
+/* Title for task */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..title" = "Tùy chỉnh tab Trang chủ";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..Page0..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..Page0..Paragraph21" = "Bắt đầu với việc thay thế `Image` bằng một ảnh mới.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..Page0..Paragraph22" = "Để thêm ảnh của chính bạn trên iPad:";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..Page0..OrderedList1..Paragraph23" = "Mở thanh bên ở bên trái.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..Page0..OrderedList1..Paragraph24" = "Chạm vào nút Thêm tệp ở đầu thanh bên.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..Page0..OrderedList1..Paragraph25" = "Chạm vào Ảnh để thêm một nội dung ảnh từ ứng dụng Ảnh của bạn.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..Page0..OrderedList1..Paragraph26" = "Đặt tên cho ảnh của bạn.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..Page0..OrderedList1..Paragraph27" = "Thay thế tên `Placeholder` trong dấu ngoặc kép bằng tên ảnh của bạn.";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..title" = "Tùy chỉnh tab Trang chủ";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..Paragraph28" = "Được rồi, bây giờ là phần thú vị. Hãy thử những sửa đổi này lần lượt để thay đổi hình dạng ảnh của bạn.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..Paragraph29" = "Thêm một trong các trình sửa đổi sau đây ở bên dưới các trình sửa đổi hình ảnh khác của bạn. Khi bạn làm việc qua chúng, hãy loại bỏ bất kỳ mã nào không mong muốn bằng cách đặt hai dấu gạch chéo (`//`) ở đầu dòng.";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..CodeBlock0" = ".clipShape(Circle())\n";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..CodeBlock1" = ".clipShape(RoundedRectangle(cornerRadius: 10))\n";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..CodeBlock2" = ".clipShape(Ellipse())\n";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..CodeBlock3" = ".clipShape(Capsule())\n";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..title" = "Tùy chỉnh tab Trang chủ";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..Paragraph30" = "Sử dụng cùng một hình dạng với ảnh của bạn, hãy thêm đường viền xung quanh hình ảnh bằng trình sửa đổi `overlay`, tạo lớp một chế độ xem ở phía trước một chế độ xem khác.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..Paragraph31" = "Thêm mã này bên dưới trình sửa đổi `clipShape` của bạn.";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..CodeBlock4" = ".overlay(\n    Circle()\n        .stroke(.yellow, style: StrokeStyle(lineWidth: 15))\n)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..Paragraph32" = "Thử thay đổi màu hoặc `lineWidth` của lớp phủ.";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..title" = "Tùy chỉnh tab Trang chủ";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..Paragraph33" = "Bây giờ ảnh của bạn đã được đặt, hãy cập nhật văn bản ở bên dưới. Chế độ xem [Văn bản](doc://com.apple.documentation/documentation/swiftui/text) là một [chế độ xem tích hợp](glossary://built-in%20view) khác được cung cấp bởi SwiftUI.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..Paragraph34" = "Sửa `\"Tên của bạn\"` thành tên của bạn hoặc tiêu đề dự án của bạn.";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..title" = "Tùy chỉnh tab Trang chủ";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..Paragraph35" = "Chọn một kiểu phông chữ cho chế độ xem `Text` của bạn. Sử dụng tự động hoàn thành để tìm các phông chữ khác:";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..OrderedList2..Paragraph36" = "Xóa `.title` (bao gồm dấu chấm, `.`).";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..OrderedList2..Paragraph37" = "Nhập vào dấu chấm (`.`) để xem và chọn từ các tùy chọn có sẵn, ví dụ như `caption` hoặc `largeTitle`.";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..title" = "Tùy chỉnh tab Trang chủ";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..Paragraph38" = "Thay vì chọn một cỡ chữ tiêu chuẩn, bạn có thể sử dụng một phông chữ tùy chỉnh. Hãy loại bỏ hoặc sửa trình sửa đổi `font` để trông giống như sau:";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..CodeBlock5" = ".font(.custom(FontNames.helvetica, size: 40))\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..Paragraph39" = "Để xem các tùy chọn phông chữ của bạn:";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..OrderedList3..Paragraph40" = "Xóa `.helvetica`.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..OrderedList3..Paragraph41" = "Nhập vào `.` để xem và chọn một phông chữ mới.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..Paragraph42" = "Hãy xem phần [Phông chữ hệ thống](https://developer.apple.com/fonts/system-fonts/) để tìm các phông chữ khác, sau đó thêm chúng vào `FontNames` ở cuối tệp.";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..title" = "Tùy chỉnh tab Trang chủ";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..Paragraph43" = "Tiếp tục bằng cách thêm một số trình sửa đổi chế độ xem `Text` khác!";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..CodeBlock6" = ".foregroundColor(.blue)\n";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..CodeBlock7" = ".padding(30)\n";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..CodeBlock8" = ".background(Color(red: 0.75, green: 0.75, blue: 0.75))\n";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..CodeBlock9" = ".cornerRadius(15)\n";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..CodeBlock10" = ".shadow(color: .blue, radius: 30)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..title" = "Tùy chỉnh tab Trang chủ";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..Paragraph44" = "Phối kết hợp các chế độ xem và trình sửa đổi như ngăn xếp, Ký hiệu SF, biểu tượng và hãy nhớ thêm một màu nào đó để làm nổi bật tên của bạn!";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..Paragraph45" = "Thử thêm ví dụ này vào cuối `VStack` của bạn, giữ lại bất kỳ phần nào mà bạn thích và xóa phần còn lại:";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..CodeBlock11" = "HStack {\n    Image(systemName: \"sparkles\")\n        .foregroundColor(.yellow)\n    Text(\"Vui vẻ\")\n        .font(.largeTitle)\n        .foregroundColor(.mint)\n        .padding()\n    Image(systemName: \"sparkles\")\n        .foregroundColor(.yellow)\n}\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..Paragraph46" = "Để tìm các Ký hiệu SF khác, hãy mở thư viện ký hiệu (✪) trong thanh công cụ để xem tất cả các tùy chọn của bạn.";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..title" = "Tùy chỉnh tab Trang chủ";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..Paragraph47" = "Tiếp tục thử nghiệm bằng cách thêm họa tiết hoặc màu nền.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..Paragraph48" = "Thêm trình sửa đổi này bên dưới dấu ngoặc nhọn đóng (`}`) của `VStack` và trình sửa đổi `padding`.";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..CodeBlock12" = ".background(Image(\"Blue\"))\n";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..title" = "Tùy chỉnh tab Trang chủ";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup0..Taskhome..PageCustomizing the Home Tab..Paragraph49" = "Bây giờ, hãy thử nghiệm với tất cả những gì mà bạn đã học được đến nay để làm cho chế độ xem này hoàn toàn thuộc về bạn!";
+
+/* Title for the section of tasks to complete */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..title" = "Tab Câu chuyện";
+
+/* Title for task */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TaskstoryView..title" = "Tạo ra một chuyện kể dạng cuộn";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TaskstoryView..PageCreate a scrolling narrative..title" = "Tạo ra một chuyện kể dạng cuộn";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TaskstoryView..PageCreate a scrolling narrative..Paragraph50" = "Đây là `StoryView`, là nơi bạn có thể hiển thị một câu chuyện về bất kỳ thứ gì mà bạn muốn.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TaskstoryView..PageCreate a scrolling narrative..Paragraph51" = "Có một số mã khởi đầu tại đây để bạn khám phá. Hãy thử vuốt lên và xuống trong bản xem trước để kiểm tra cách hoạt động của mã này.";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TaskstoryView..PageCreate a scrolling narrative..title" = "Tạo ra một chuyện kể dạng cuộn";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TaskstoryView..PageCreate a scrolling narrative..Paragraph52" = "Trong khi đang vuốt lên và xuống, có thể bạn nhận thấy rằng chế độ xem được cuộn! [ScrollView](doc://com.apple.documentation/documentation/swiftui/scrollview) là một chế độ xem hữu ích nếu bạn dự định có nhiều nội dung, ví dụ như một bài viết trong ứng dụng tin tức. `ScrollView` giúp mọi người có thể cuộn qua nội dung của bạn nếu nội dung đó vượt quá chiều dài của màn hình.";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TaskstoryView..PageCreate a scrolling narrative..title" = "Tạo ra một chuyện kể dạng cuộn";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TaskstoryView..PageCreate a scrolling narrative..Paragraph53" = "Một phần thú vị khác của trang này là bố cục và tất cả các trình sửa đổi giúp thực hiện việc đó.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TaskstoryView..PageCreate a scrolling narrative..Paragraph54" = "Thử chú thích một trình sửa đổi mỗi lần để xem việc đó ảnh hưởng đến hoạt động của chế độ xem như thế nào.";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TaskstoryView..PageCreate a scrolling narrative..title" = "Tạo ra một chuyện kể dạng cuộn";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TaskstoryView..PageCreate a scrolling narrative..Paragraph55" = "Khi bạn đã sẵn sàng, hãy tiếp tục học những cách mới để thu hút độc giả và làm sống động câu chuyện của mình.";
+
+/* Title for task */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..title" = "Thử nghiệm với nhiều bố cục và điểm thu hút sự chú ý";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..title" = "Thử nghiệm với nhiều bố cục và điểm thu hút sự chú ý";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..Paragraph56" = "Thu hút độc giả của bạn bằng một tiêu đề hấp dẫn.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..Paragraph57" = "Nhập mã khởi đầu bằng cách thay thế `\"Câu chuyện của bạn\"` bằng một tiêu đề hấp dẫn. Thay thế `\"Tên của bạn\"` bằng tên của bạn.";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..title" = "Thử nghiệm với nhiều bố cục và điểm thu hút sự chú ý";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..Paragraph58" = "Sử dụng các [Bộ chia](doc://com.apple.documentation/documentation/swiftui/divider) để thêm các phần vào câu chuyện của bạn.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..Paragraph59" = "Thêm mã này bên dưới các chế độ xem văn bản và trình sửa đổi bên trong `VStack`:";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..CodeBlock13" = "Divider()\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..Paragraph60" = "Sử dụng các bộ chia tùy ý trong suốt câu chuyện của bạn để cung cấp không gian và nhấn mạnh các phần khác nhau trong câu chuyện của bạn.";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..title" = "Thử nghiệm với nhiều bố cục và điểm thu hút sự chú ý";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..Paragraph61" = "Bây giờ, hãy dành thời gian để viết câu chuyện của bạn.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..Paragraph62" = "Thêm những chế độ xem này bên dưới bộ chia và sửa văn bản:";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..CodeBlock14" = "Text(\"Mọi người đều biết rằng tôi chỉ yêu …\")\n    .padding([.top, .bottom])\nText(\"Siêu năng lực của tôi là …\")\n    .padding(.bottom)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..Paragraph63" = "Trình sửa đổi `.padding` rất hữu ích trong việc đảm bảo có đủ không gian xung quanh từng phần tử trang của bạn. Hãy lưu ý cách sử dụng [dãy](glossary://array) để chỉ định phần đệm chỉ ở hai bên trong một trong cách trình sửa đổi phần đệm.";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..title" = "Thử nghiệm với nhiều bố cục và điểm thu hút sự chú ý";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..Paragraph64" = "Tùy theo lượng nội dung mà bạn thêm, có thể bạn đã gặp phải một lỗi cho biết “Các đối số dư thừa tại các vị trí…” (hoặc có thể bạn sẽ sớm gặp phải). Đây là cách mà hệ thống cho biết rằng bạn có trên 10 chế độ xem bên trong một ngăn xếp. SwiftUI không hỗ trợ nhiều hơn 10 chế độ xem không được nhóm, nên bạn sẽ cần nhóm các mục!";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..Paragraph65" = "Thêm `Group` xung quanh các mục đi cùng nhau, ví dụ như tiêu đề của câu chuyện, tên của bạn và bộ chia. Để xem ví dụ, hãy đi tới bước tiếp theo.";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..CodeBlock15" = "Group {\n}\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..Paragraph66" = "Việc nhóm các mục không mang lại hiệu ứng hình ảnh trên UI của bạn, nhưng có thể giúp bạn theo dõi các phần khác nhau của câu chuyện, vậy nên hãy suy nghĩ về cách bạn nhóm các mục cùng nhau.";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..title" = "Thử nghiệm với nhiều bố cục và điểm thu hút sự chú ý";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..Paragraph67" = "Người ta thường nói một hình ảnh có giá trị bằng cả ngàn lời nói, vậy nên hãy thêm các hình ảnh trong suốt câu chuyện của bạn.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..Paragraph68" = "Để làm cho bố cục của bạn sinh động hơn, hãy thử thêm các chế độ xem `Image` và `Text` bên trong một `HStack`.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..Paragraph69" = "Thêm mã này bên dưới nhóm chế độ xem cuối cùng trong `VStack` của bạn.";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..CodeBlock16" = "Group {\n    HStack {\n        Text(\"Trong cuộc đời mình, tôi vô cùng biết ơn …\")\n        Image(\"Placeholder\")\n            .resizable()\n            .scaledToFit()\n            .cornerRadius(15)\n    }\n}\n";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..title" = "Thử nghiệm với nhiều bố cục và điểm thu hút sự chú ý";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..Paragraph70" = "Thử sử dụng các bộ chia với văn bản có màu khác nhau để làm nổi bật hoặc nhấn mạnh các phần quan trọng trong câu chuyện của bạn.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..Paragraph71" = "Thêm mã sau đây bên dưới nhóm chế độ xem cuối cùng trong `VStack` để thử nghiệm.";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..CodeBlock17" = "Group {\n    Divider()\n    Text(\"Tận dụng tối đa phần này\")\n        .font(.title3)\n        .foregroundColor(.cyan)\n    Text(\"Đây là nơi bạn viết nội dung mà bạn thực sự muốn nhấn mạnh. Điều mà bạn muốn mọi người ghi nhớ sau khi đọc câu chuyện của mình.\")\n        .italic()\n    Divider()\n}\n";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..title" = "Thử nghiệm với nhiều bố cục và điểm thu hút sự chú ý";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..Paragraph72" = "Nếu bạn muốn thêm một câu chuyện khác vào tab này, hãy thêm một `VStack` khác bên trong `ScrollView`.";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..CodeBlock18" = "VStack(alignment: .leading) {\n    Group {\n        Text(\"Một câu chuyện khác\")\n            .font(.largeTitle)\n        Text(\"Tác giả\")\n            .font(.subheadline)\n            .foregroundColor(.secondary)   \n        Divider()\n    }\n}\n.padding()\n.frame(maxWidth: .infinity)\n.background(in: RoundedRectangle(cornerRadius: 15))\n.padding()\n";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..title" = "Thử nghiệm với nhiều bố cục và điểm thu hút sự chú ý";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..Paragraph73" = "Bây giờ, hãy đặt tất cả cùng nhau để làm sống động câu chuyện của bạn.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup1..TasktrustYourVoice..PageExperiment with various layouts and attention grabbers..Paragraph74" = "Tiếp tục thêm văn bản, bộ chia, hình ảnh, ngăn xếp, nhóm, màu, phông chữ và đề mục để làm cho câu chuyện của bạn sinh động và thú vị hơn.";
+
+/* Title for the section of tasks to complete */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..title" = "Tab Mục ưa thích";
+
+/* Title for task */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskfavoritesView..title" = "Tìm hiểu cách hiển thị các mục ưa thích của bạn theo ba cách khác nhau";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskfavoritesView..PageFavorites Tab..title" = "Tab Mục ưa thích";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskfavoritesView..PageFavorites Tab..Paragraph75" = "Tab này chứa ba phần của các mục ưa thích, được sắp xếp theo một cách giống nhau. Có một tiêu đề ở trên cùng, một [HStack](doc://com.apple.documentation/documentation/swiftui/hstack) ở bên dưới đó hiển thị hình ảnh, văn bản hoặc màu theo chiều ngang và một `Divider` để chia tách các phần.";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskfavoritesView..PageFavorites Tab..title" = "Tab Mục ưa thích";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskfavoritesView..PageFavorites Tab..Paragraph76" = "Mặc dù có rất nhiều mã giống nhau trong từng phần, nhưng có một số khác biệt quan trọng cần chỉ ra.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskfavoritesView..PageFavorites Tab..Paragraph77" = "Hãy dành một phút để khám phá mã và xem bạn có thể chỉ ra không:";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskfavoritesView..PageFavorites Tab..UnorderedList2..Paragraph78" = "Văn bản, hình ảnh và màu được căn chỉnh về một bên như thế nào?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskfavoritesView..PageFavorites Tab..UnorderedList2..Paragraph79" = "Tại sao bạn có thể cuộn các món ăn sang hai bên không?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskfavoritesView..PageFavorites Tab..UnorderedList2..Paragraph80" = "Các màu được ẩn như thế nào?";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskfavoritesView..PageFavorites Tab..title" = "Tab Mục ưa thích";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskfavoritesView..PageFavorites Tab..Paragraph81" = "Bắt đầu bằng việc xem văn bản, hình ảnh và màu căn chỉnh về một bên như thế nào.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskfavoritesView..PageFavorites Tab..Paragraph82" = "Hãy lưu ý rằng mỗi phần sử dụng một [HStack](doc://com.apple.documentation/documentation/swiftui/hstack) để hiển thị nội dung và một [ký tự khoảng trống](doc://com.apple.documentation/documentation/swiftui/spacer) ở cuối, tại đây …";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskfavoritesView..PageFavorites Tab..title" = "Tab Mục ưa thích";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskfavoritesView..PageFavorites Tab..Paragraph83" = "… và tại đây …";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskfavoritesView..PageFavorites Tab..title" = "Tab Mục ưa thích";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskfavoritesView..PageFavorites Tab..Paragraph84" = "… và tại đây …";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskfavoritesView..PageFavorites Tab..title" = "Tab Mục ưa thích";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskfavoritesView..PageFavorites Tab..Paragraph85" = "… và đây! Như bạn có thể thấy, sử dụng một `HStack` và `Spacer` sẽ căn chỉnh các chế độ xem về một bên.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskfavoritesView..PageFavorites Tab..Paragraph86" = "Thử di chuyển `Spacer` đến vị trí đầu tiên trong ngăn xếp. Bạn có đoán được điều gì xảy ra không?";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskfavoritesView..PageFavorites Tab..title" = "Tab Mục ưa thích";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskfavoritesView..PageFavorites Tab..Paragraph87" = "Tiếp tục thực hiện để tìm ra câu trả lời cho hai câu hỏi khác trong khi bạn thử nghiệm với mã.";
+
+/* Title for task */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..title" = "Tùy chỉnh tab Mục ưa thích";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..title" = "Tab Mục ưa thích";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..Paragraph88" = "Bắt đầu bằng việc sửa mã để thể hiện các sở thích của bạn.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..Paragraph89" = "Hãy lưu ý rằng biểu tượng chỉ là các [Chuỗi](glossary://String) văn bản! Đó là lý do tại sao có các dấu ngoặc kép xung quanh biểu tượng.";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..title" = "Tab Mục ưa thích";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..Paragraph90" = "Nếu bạn lựa chọn thêm rất nhiều sở thích, hãy thử xóa `Spacer` hoặc sửa khoảng cách của `HStack` để xem bạn có thể đặt vừa tất cả các sở thích trên màn hình không. Nếu bạn không thể thì phần tiếp theo có thể giúp được bạn. 😉";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..title" = "Tab Mục ưa thích";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..Paragraph91" = "Bạn có biết tại sao bạn có thể cuộn các món ăn sang hai bên không?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..Paragraph92" = "Đúng! Phần này sử dụng một `ScrollView`. `ScrollView` cuộn dọc theo mặc định, nhưng bạn có thể làm cho chúng cuộn ngang, giống như bạn nhìn thấy tại đây.";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..title" = "Tab Mục ưa thích";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..Paragraph93" = "Sử dụng `ScrollView` bằng cách thêm nhiều món ăn ưa thích của bạn vào danh sách và xem điều gì xảy ra khi các mục vượt quá chiều rộng của màn hình.";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..CodeBlock19" = " Text(\"🍉\")\n     .font(.system(size: 48))\n Text(\"🥖\")\n     .font(.system(size: 48))\n Text(\"🍙\")\n     .font(.system(size: 48))\n Text(\"🍫\")\n     .font(.system(size: 48))\n Text(\"🥞\")\n     .font(.system(size: 48))\n";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..title" = "Tab Mục ưa thích";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..Paragraph94" = "Bây giờ, hãy sửa biểu tượng đồ ăn để bao gồm tất cả các món ăn ưa thích của bạn! 😋";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..title" = "Tab Mục ưa thích";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..Paragraph95" = "Bạn đã tìm ra cách ẩn các màu chưa?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..Paragraph96" = "Nếu không, hãy dừng xem. Để thêm nội dung bên dưới một tiêu đề, bạn có thể sử dụng một `DisclosureGroup` giống như bạn nhìn thấy tại đây.";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..title" = "Tab Mục ưa thích";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..Paragraph97" = "Bây giờ, hãy thay đổi màu thành màu ưa thích của bạn!";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..Paragraph98" = "Thay thế các màu trong mã bằng bất kỳ màu nào mà bạn chọn. Để duy trì cùng một kích cỡ và hình dạng của các màu khác trong danh sách, không xóa các trình sửa đổi `frame` và `cornerRadius` bên dưới các màu.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..Paragraph99" = "Để thay thế màu, bạn có thể sử dụng các màu SwiftUI. Mở thư viện màu (🎨) trong thanh công cụ để xem tất cả các tùy chọn của bạn.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..Paragraph100" = "Hoặc bạn có thể sử dụng các màu RGB (đỏ, lục, lam) như sau:";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..CodeBlock20" = "Color(red: 0.6, green: 0.8, blue: 0.8)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..Paragraph101" = "Hoặc các sắc thái màu xám:";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..CodeBlock21" = "Color(white: 0.7)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..Paragraph102" = "Hoặc các giá trị HSB (sắc độ, độ bão hòa và độ sáng) để định nghĩa các màu:";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..CodeBlock22" = "Color(hue: 0.9, saturation: 0.5, brightness: 0.9)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..title" = "Tab Mục ưa thích";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..Paragraph103" = "Nếu bạn muốn cung cấp cho mọi người gợi ý về màu ưa thích của mình thì bạn có thể thay đổi tiêu đề bằng trình sửa đổi `accentColor`.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..Paragraph104" = "Thêm trình sửa đổi này vào tận cuối của `DisclosureGroup`, bên dưới nhãn, dấu ngoặc nhọn (`}`) và trình sửa đổi `.padding()`.";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup2..TaskbestBetter..PageFavorites Tab..CodeBlock23" = ".accentColor(.purple)\n";
+
+/* Title for the section of tasks to complete */
+"GuideBook..Guide0..StepAbout Me..TaskGroup3..title" = "Tab Sự thật thú vị";
+
+/* Title for task */
+"GuideBook..Guide0..StepAbout Me..TaskGroup3..TaskfunFactsView..title" = "Tìm hiểu về các nút và Trạng thái";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup3..TaskfunFactsView..PageFun Facts Tab..title" = "Tab Sự thật thú vị";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup3..TaskfunFactsView..PageFun Facts Tab..Paragraph105" = "Trong `FunFactsView`, bạn sẽ sử dụng một [Nút](doc://com.apple.documentation/documentation/swiftui/button) để thay đổi một chuỗi sự thật thú vị bất kỳ lúc nào có người chạm vào đó.";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup3..TaskfunFactsView..PageFun Facts Tab..title" = "Tab Sự thật thú vị";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup3..TaskfunFactsView..PageFun Facts Tab..Paragraph106" = "Bên trong `VStack`, bạn sẽ nhìn thấy một nút. Khi bạn chạm vào nút này, nút sẽ gán một sự thật ngẫu nhiên từ dãy `allFunFacts` cho `funFact`.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup3..TaskfunFactsView..PageFun Facts Tab..Paragraph107" = "`??` cung cấp một `String` mặc định trong trường hợp dãy `allFunFacts` trống.";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup3..TaskfunFactsView..PageFun Facts Tab..title" = "Tab Sự thật thú vị";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup3..TaskfunFactsView..PageFun Facts Tab..Paragraph108" = "Biến `funFact` đặc biệt vì biến đó sử dụng một [thuộc tính trạng thái](glossary://state%20property), tự động cập nhật chế độ xem `Text` bên dưới bằng một giá trị mới bất kỳ lúc nào giá trị của `funFact` thay đổi.";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup3..TaskfunFactsView..PageFun Facts Tab..title" = "Tab Sự thật thú vị";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup3..TaskfunFactsView..PageFun Facts Tab..Paragraph109" = "Chế độ xem `Text` này hiển thị sự thật thú vị. Chế độ xem này sử dụng biến `funFact` làm [đối số](glossary://argument) để có thể hiển thị một sự thật thú vị mới bất kỳ lúc nào giá trị thay đổi.";
+
+/* Title for task */
+"GuideBook..Guide0..StepAbout Me..TaskGroup3..TaskfunFactsExperiment..title" = "Biến thành của bạn";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup3..TaskfunFactsExperiment..PageFun Facts Tab..title" = "Tab Sự thật thú vị";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup3..TaskfunFactsExperiment..PageFun Facts Tab..Paragraph110" = "Hãy bắt đầu bằng cách thêm một loạt sự thật thú vị và hài hước vào dãy `allFunFacts`.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup3..TaskfunFactsExperiment..PageFun Facts Tab..Paragraph111" = "Đảm bảo thêm một dấu phẩy ở cuối mỗi `String` để cho biết rằng bạn đang bắt đầu một mục mới trong dãy.";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup3..TaskfunFactsExperiment..PageFun Facts Tab..title" = "Tab Sự thật thú vị";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup3..TaskfunFactsExperiment..PageFun Facts Tab..Paragraph112" = "Trang này đẹp, nhưng để cải thiện thiết kế, hãy thêm nền. Để thực hiện việc này, hãy sử dụng `ZStack` trong mã để thêm một `Image` bên dưới nội dung.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup3..TaskfunFactsExperiment..PageFun Facts Tab..Paragraph113" = "Thêm một `Image` giữa `ZStack` và `VStack`, giống như sau:";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup3..TaskfunFactsExperiment..PageFun Facts Tab..CodeBlock24" = "ZStack {\n    Image(\"Green\")\n    VStack {\n";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup3..TaskfunFactsExperiment..PageFun Facts Tab..title" = "Tab Sự thật thú vị";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup3..TaskfunFactsExperiment..PageFun Facts Tab..Paragraph114" = "Với màu nền được đặt, đã đến lúc làm việc với vấn đề tạo kiểu cho nút.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup3..TaskfunFactsExperiment..PageFun Facts Tab..Paragraph115" = "Hãy dùng thử một, hai hoặc tất cả các trình sửa đổi nút này. Thêm trình sửa đổi này bên dưới dấu ngoặc nhọn đóng (`}`) của `Button`.";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup3..TaskfunFactsExperiment..PageFun Facts Tab..CodeBlock25" = ".padding()\n";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup3..TaskfunFactsExperiment..PageFun Facts Tab..CodeBlock26" = ".foregroundColor(.white)\n";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup3..TaskfunFactsExperiment..PageFun Facts Tab..CodeBlock27" = ".background(.blue)\n";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup3..TaskfunFactsExperiment..PageFun Facts Tab..CodeBlock28" = ".clipShape(RoundedRectangle(cornerRadius: 15))\n";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup3..TaskfunFactsExperiment..PageFun Facts Tab..CodeBlock29" = ".shadow(radius: 15)\n";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup3..TaskfunFactsExperiment..PageFun Facts Tab..CodeBlock30" = ".font(.title2)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup3..TaskfunFactsExperiment..PageFun Facts Tab..Paragraph116" = "Bạn đã sử dụng tất cả những trình sửa đổi này trước đây. Hầu hết các trình sửa đổi hoạt động khi được áp dụng cho bất kỳ kiểu `View` nào; đây chính là nét đẹp và tính đơn giản của SwiftUI!";
+
+/* Title for the section of tasks to complete */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..title" = "Sử dụng và tạo các tab";
+
+/* Title for task */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskcontentView..title" = "Thiết lập một giao diện dạng tab";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskcontentView..PageTabbed Interface..title" = "Giao diện dạng tab";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskcontentView..PageTabbed Interface..Paragraph117" = "Để tạo ra một giao diện người dùng dạng tab, hãy đặt các chế độ xem bên trong một [TabView](doc://com.apple.documentation/documentation/swiftui/tabview), sau đó liệt kê từng mục tab mà bạn muốn có trong giao diện của mình.";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskcontentView..PageTabbed Interface..title" = "Giao diện dạng tab";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskcontentView..PageTabbed Interface..Paragraph118" = "Để tạo một tab, hãy tạo ra một [thể hiện](glossary://instance) của chế độ xem mà bạn muốn hiển thị khi có người chạm vào một tab. Chế độ xem tab đầu tiên trong danh sách là `HomeView` nên đó là tab đầu tiên mà bạn nhìn thấy khi ứng dụng khởi chạy.";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskcontentView..PageTabbed Interface..title" = "Giao diện dạng tab";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskcontentView..PageTabbed Interface..Paragraph119" = "Sau khi xác định chế độ xem mà bạn muốn hiển thị — trong trường hợp này là `HomeView` — hãy sử dụng một trình sửa đổi `tabItem` và chuyển vào `Label` như tab hiển thị. Không có `tabItem`, tab cho chế độ xem này xuất hiện ở trạng thái trống.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskcontentView..PageTabbed Interface..Paragraph120" = "Trình sửa đổi `tabItem` chỉ chấp nhận các chế độ xem [Nhãn](doc://com.apple.documentation/documentation/swiftui/label), [Văn bản](doc://com.apple.documentation/documentation/swiftui/text) và [Hình ảnh](doc://com.apple.documentation/documentation/swiftui/image). Việc bao gồm bất kỳ kiểu chế độ xem nào khác, ví dụ như [Nút](doc://com.apple.documentation/documentation/swiftui/button) sẽ dẫn đến một mục tab trống.";
+
+/* Title for task */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskyourTab..title" = "Tạo ra tab của riêng bạn";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskyourTab..PageCreate Your Own Tab..title" = "Tạo ra tab của riêng bạn";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskyourTab..PageCreate Your Own Tab..Paragraph121" = "Bây giờ, đã đến lúc thêm một tab mới hoàn toàn thuộc về bạn! Hãy bắt đầu bằng cách cập nhật tệp `YourTab`. Sử dụng những gì bạn đã học được để tạo ra UI của mình hoặc lấy ý tưởng từ các dự án khác trong Bộ sưu tập ứng dụng!";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskyourTab..PageCreate Your Own Tab..Paragraph122" = "Thể hiện sự sáng tạo của bạn tại đây, sau đó tiến hành thử nghiệm tiếp theo để thêm chế độ xem của bạn vào thanh tab.";
+
+/* Title for task */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskaddATab..title" = "Thêm tab của bạn";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskaddATab..PageAdd Your Tab..title" = "Thêm tab của bạn";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskaddATab..PageAdd Your Tab..Paragraph123" = "Thêm tab mới của bạn bằng cách thêm một chế độ xem khác vào `TabView`.";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskaddATab..PageAdd Your Tab..CodeBlock31" = "YourTab()\n";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskaddATab..PageAdd a Tab..title" = "Thêm một tab";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskaddATab..PageAdd a Tab..Paragraph124" = "Sau đó, sử dụng trình sửa đổi `tabItem` để cung cấp cho chế độ xem của bạn một `Label` sẽ hiển thị trong danh sách các tab ở dưới cùng của ứng dụng.";
+
+/*  */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskaddATab..PageAdd a Tab..CodeBlock32" = ".tabItem {\n     Label(\"Tab của bạn\", systemImage: \"heart.fill\")\n}\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskaddATab..PageAdd a Tab..Paragraph125" = "Sau đó, kiểm tra để đảm bảo ứng dụng hoạt động!";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskaddATab..PageAdd a Tab..title" = "Thêm một tab";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskaddATab..PageAdd a Tab..Paragraph126" = "Cuối cùng, thay đổi tên, biểu tượng ứng dụng và màu nhấn của ứng dụng. Để thực hiện việc này:";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskaddATab..PageAdd a Tab..OrderedList4..Paragraph127" = "Mở thanh bên ở bên trái.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskaddATab..PageAdd a Tab..OrderedList4..Paragraph128" = "Chạm vào Cài đặt ứng dụng ở gần đầu thanh bên.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskaddATab..PageAdd a Tab..OrderedList4..Paragraph129" = "Thay đổi tên của ứng dụng.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskaddATab..PageAdd a Tab..OrderedList4..Paragraph130" = "Chọn một màu nhấn.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskaddATab..PageAdd a Tab..OrderedList4..Paragraph131" = "Chạm vào Trình giữ chỗ và chọn một biểu tượng mới hoặc chạm vào Tùy chỉnh để tải lên biểu tượng của riêng bạn.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskaddATab..PageAdd a Tab..Paragraph132" = "Sau đó, kiểm tra bản xem trước để đảm bảo rằng tên và các nhãn tab của bạn đã được cập nhật.";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskaddATab..PageAdd a Tab..title" = "Thêm một tab";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskaddATab..PageAdd a Tab..Paragraph133" = "Nếu bạn đang sử dụng máy Mac thì bạn cũng có thể cài đặt ứng dụng của mình trên máy tính trong Cài đặt ứng dụng!";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskaddATab..PageAdd a Tab..Paragraph134" = "Mở lại Cài đặt ứng dụng, cuộn đến dưới cùng và bấm vào “Cài đặt trên máy Mac này” để kiểm tra ứng dụng của bạn.";
+
+/* title for page */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskaddATab..PagePolish..title" = "Tinh chỉnh";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskaddATab..PagePolish..Paragraph135" = "Xem lại từng tab trong ứng dụng của bạn và đảm bảo rằng mọi thứ trông phù hợp và truyền tải thông điệp của bạn. Hãy đề nghị người khác khám phá ứng dụng của bạn để xem họ có gợi ý nào để cải thiện ứng dụng không.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepAbout Me..TaskGroup4..TaskaddATab..PagePolish..Paragraph136" = "Tiếp theo, hãy xem một số dự án khác trong Bộ sưu tập ứng dụng để tiếp tục xây dựng các kỹ năng SwiftUI của bạn.";
+
