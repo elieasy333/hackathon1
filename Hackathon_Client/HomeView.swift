@@ -77,6 +77,8 @@ struct HomeView: View {
         .background(Image("Background"))
 
         .padding()
+        
+        
         /*#-code-walkthrough(HomeView.Image.background)*/
         
         /*#-code-walkthrough(HomeView.Image.background)*/

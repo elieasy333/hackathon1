@@ -1,50 +1,52 @@
-// Created by Sydnie Johnson 11/09/2023
+// ResHallView.swift
+//Hackathon IOS App
+//
+//Created by Sydnie Johnson
+//
 
 import SwiftUI
 
 struct ResHallView {
-  var allResHall = [ "u"]
-  @State private var ResHall = ""
-
   var body: some View{
+      
     ZStack{
       VStack{
         Text("Residence Halls")
         .padding()
         .font(.largeTitle)
         .background(.orange)
-        // // .forgroundStyle(.black)
+        .foregroundColor(.black)
         
         Text("There are 11 residence halls on campus for students.")
-        // // .forgroundStyle(.black)
+        .foregroundColor(.black)
         Spacer()
 
         Text("Freshmen residence Halls")
         .font(.title)
         .background(.orange)
-        // // .forgroundStyle(.black)
+        .foregroundColor(.black)
         .frame(maxWidth: 150, minHeight: 20)
         
         Text("-Branch Hall")
-        // // .forgroundStyle(.black)
+         .foregroundColor(.black)
         
         Text("-Howard Hall")
-        // // .forgroundStyle(.black)
+        .foregroundColor(.black)
         
         Text("-Campbell Hall")
-        // // .forgroundStyle(.black)
+        .foregroundColor(.black)
         
         Text("-Langston Hall")
-        // // .forgroundStyle(.black)
+        .foregroundColor(.black)
 
         Text("-Seward Hall")
-        // // .forgroundStyle(.black)
+        .foregroundColor(.black)
         
         Text("-Williams Hall")
-        // // .forgroundStyle(.black)
+        .foregroundColor(.black)
         
         Text("-Quad I")
-        // // .forgroundStyle(.black)
+        .foregroundColor(.black)
         
       }
 
@@ -53,20 +55,20 @@ struct ResHallView {
         Text("Upper Classmen Residence Halls")
         .font(.title)
         .background(.orange)
-        // .forgroundStyle(.black)
+        .foregroundColor(.black)
         .frame(maxWidth: 150, minHeight: 20)
               
         Text("-Gateway Hall")
-        // .forgroundStyle(.black)
+              .foregroundColor(.black)
                
         Text("-Moore Hall")
-        // .forgroundStyle(.black)
+        .foregroundColor(.black)
                
         Text("-Quad II")
-        // .forgroundStyle(.black)
+              .foregroundColor(.black)
                
         Text("-Whitting Hall")
-        // .forgroundStyle(.black)
+        .foregroundColor(.black)
       }
     }
   }
