@@ -1,4 +1,5 @@
 //Sending notifications from App)
+import Foundation
 
 func sendNotificationToServer() {
     let notificationPayload: [String: Any] = [
