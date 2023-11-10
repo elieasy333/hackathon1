@@ -1,5 +1,4 @@
 import SwiftUI
-
 /*#-code-walkthrough(HomeView.struct)*/
 struct HomeView: View {
     /*#-code-walkthrough(HomeView.struct)*/
@@ -25,51 +24,59 @@ struct HomeView: View {
                     Circle()
                     .stroke(.orange, style: StrokeStyle(lineWidth: 5))
                 )
-
-                //.clipShape(RoundedRectangle(cornerRadius: 10))
-                //.clipShape(Ellipse())
-                //.clipShape(Capsule())
             /*#-code-walkthrough(HomeView.Image.modifiers)*/
             /*#-code-walkthrough(omeView.Image.overlay)*/
             
             /*#-code-walkthrough(omeView.Image.overlay)*/
             /*#-code-walkthrough(HomeView.Text)*/
-            Text("Welcome to NotiMe, a school notifaction app that keeps you up to date")
+            Text("Welcome to NotiMe, a school notifaction app that keeps you up to date!")
             /*#-code-walkthrough(HomeView.Text)*/
             /*#-code-walkthrough(HomeView.Text.modifiers)*/
-                .font(.custom(FontNames.helvetica, size : 40))
+                .font(.custom(FontNames.helvetica, size : 36))
                 .foregroundColor(.orange)
-                .padding(50)
-                //.background(Color(red: 0.75, green: 0.75, blue: 0.75))
-                //.cornerRadius(15)
-                .shadow(color: .blue, radius: 30)
+                .cornerRadius(15)
+                .shadow(color: .blue, radius: 15)
                 .multilineTextAlignment(.center)
-
-
-
-            /*#-code-walkthrough(HomeView.Text.modifiers)*/
-            /*#-code-walkthrough(HomeView.Text.moreModifiers)*/
+                .padding(30)
             
-            /*#-code-walkthrough(HomeView.Text.moreModifiers)*/
-            
+            ScrollView {
+                /*#-code-walkthrough(StoryView.scrollView)*/
+                VStack(alignment: .leading) {
+                    Group {
+                        /*#-code-walkthrough(StoryView.intro)*/
+                        /*#-code-walkthrough(StoryView.group)*/
+                        
+                        Text("Recent Messages")
+                        /*#-code-walkthrough(StoryView.intro)*/
+                            .font(.title2)
+                            .padding()
+                        
+                        Text("Urgent Messages")
+                            .font(.title2)
+                            .padding()
+                    }
+                    .padding()
+                    .frame(maxWidth: .infinity)
+                    //.background(in: RoundedRectangle(cornerRadius: 10))
+                    .padding()
+                }
+                
+            }
+
             /*#-code-walkthrough(HomeView.stacksOnStacks)*/
             HStack {
                 Image(systemName: "bell")
                     .foregroundColor(.orange)
-                //Text("Notify")
                     .font(.largeTitle)
-                    .foregroundColor(.blue)
-                    .padding()
-                Image(systemName: "bell")
-                    .foregroundColor(.orange)
-                //Text("Me")
-                    .font(.largeTitle)
-                    .foregroundColor(.blue)
                     .padding()
                 Image(systemName: "bell")
                     .foregroundColor(.orange)
                     .font(.largeTitle)
-                    .foregroundColor(.blue)
+                    .padding()
+                Image(systemName: "bell")
+                    .foregroundColor(.orange)
+                    .font(.largeTitle)
+                    .padding()
             }
 
             /*#-code-walkthrough(HomeView.stacksOnStacks)*/
@@ -77,13 +84,6 @@ struct HomeView: View {
         .background(Image("Background"))
 
         .padding()
-        /*#-code-walkthrough(HomeView.Image.background)*/
-        
-        /*#-code-walkthrough(HomeView.Image.background)*/
-        /*#-code-walkthrough(HomeView.Image.clip)*/
-        
-        /*#-code-walkthrough(HomeView.Image.clip)*/
-        
     }
     /*#-code-walkthrough(HomeView.views)*/
     
