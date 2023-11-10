@@ -4,8 +4,10 @@ struct ClubsView: View{
     Vstack{
       // The title of the page
       Text("Organizations")
-      .font(.largeTitle)
-      .padding(.bottom, 40)
+      .padding()
+        .font(.largeTitle)
+        .background(.orange)
+        .forgroundStyle(.black)
 
       //This section is a horizontal stack of the types of clubs that are available on campus for students
       HStack{
