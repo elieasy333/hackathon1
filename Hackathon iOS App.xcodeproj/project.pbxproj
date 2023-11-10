@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0446311C2AFDA92C006850C6 /* demo_message.html in Resources */ = {isa = PBXBuildFile; fileRef = 0446311B2AFDA92C006850C6 /* demo_message.html */; };
+		0446311F2AFDACFC006850C6 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0446311D2AFDACFB006850C6 /* Message.swift */; };
+		044631202AFDACFC006850C6 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0446311E2AFDACFB006850C6 /* MessageView.swift */; };
+		044631232AFDB0F4006850C6 /* RichText in Frameworks */ = {isa = PBXBuildFile; productRef = 044631222AFDB0F4006850C6 /* RichText */; };
 		047329E42AFD54D200616A26 /* Hackathon_iOS_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047329E32AFD54D200616A26 /* Hackathon_iOS_AppApp.swift */; };
 		047329E62AFD54D200616A26 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047329E52AFD54D200616A26 /* ContentView.swift */; };
 		047329E82AFD54D800616A26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047329E72AFD54D800616A26 /* Assets.xcassets */; };
@@ -35,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0446311B2AFDA92C006850C6 /* demo_message.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = demo_message.html; sourceTree = "<group>"; };
+		0446311D2AFDACFB006850C6 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		0446311E2AFDACFB006850C6 /* MessageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
 		047329E02AFD54D200616A26 /* Hackathon iOS App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hackathon iOS App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		047329E32AFD54D200616A26 /* Hackathon_iOS_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hackathon_iOS_AppApp.swift; sourceTree = "<group>"; };
 		047329E52AFD54D200616A26 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044631232AFDB0F4006850C6 /* RichText in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +85,7 @@
 		047329D72AFD54D200616A26 = {
 			isa = PBXGroup;
 			children = (
+				0446311B2AFDA92C006850C6 /* demo_message.html */,
 				047329E22AFD54D200616A26 /* Hackathon iOS App */,
 				047329F42AFD54D900616A26 /* Hackathon iOS AppTests */,
 				047329FE2AFD54D900616A26 /* Hackathon iOS AppUITests */,
@@ -97,6 +106,8 @@
 		047329E22AFD54D200616A26 /* Hackathon iOS App */ = {
 			isa = PBXGroup;
 			children = (
+				0446311D2AFDACFB006850C6 /* Message.swift */,
+				0446311E2AFDACFB006850C6 /* MessageView.swift */,
 				047329E32AFD54D200616A26 /* Hackathon_iOS_AppApp.swift */,
 				047329E52AFD54D200616A26 /* ContentView.swift */,
 				047329E72AFD54D800616A26 /* Assets.xcassets */,
@@ -148,6 +159,9 @@
 			dependencies = (
 			);
 			name = "Hackathon iOS App";
+			packageProductDependencies = (
+				044631222AFDB0F4006850C6 /* RichText */,
+			);
 			productName = "Hackathon iOS App";
 			productReference = 047329E02AFD54D200616A26 /* Hackathon iOS App.app */;
 			productType = "com.apple.product-type.application";
@@ -220,6 +234,9 @@
 				Base,
 			);
 			mainGroup = 047329D72AFD54D200616A26;
+			packageReferences = (
+				044631212AFDB0F4006850C6 /* XCRemoteSwiftPackageReference "RichText" */,
+			);
 			productRefGroup = 047329E12AFD54D200616A26 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -238,6 +255,7 @@
 			files = (
 				047329EB2AFD54D800616A26 /* Preview Assets.xcassets in Resources */,
 				047329E82AFD54D800616A26 /* Assets.xcassets in Resources */,
+				0446311C2AFDA92C006850C6 /* demo_message.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,8 +281,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D674D212AFD8055003B1937 /* HomeView.swift in Sources */,
+				0446311F2AFDACFC006850C6 /* Message.swift in Sources */,
 				047329E62AFD54D200616A26 /* ContentView.swift in Sources */,
 				047329E42AFD54D200616A26 /* Hackathon_iOS_AppApp.swift in Sources */,
+				044631202AFDACFC006850C6 /* MessageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,13 +444,14 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_UNDEFINED_BEHAVIOR_SANITIZER_INTEGER = YES;
 				CODE_SIGN_ENTITLEMENTS = "Hackathon iOS App/Hackathon_iOS_App.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_ASSET_PATHS = "\"Hackathon iOS App/Preview Content\"";
-				DEVELOPMENT_TEAM = JSF7VG7372;
+				DEVELOPMENT_TEAM = C74NHTAGK3;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GCC_OPTIMIZATION_LEVEL = 1;
@@ -456,13 +477,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_ENTITLEMENTS = "Hackathon iOS App/Hackathon_iOS_App.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Hackathon iOS App/Preview Content\"";
-				DEVELOPMENT_TEAM = JSF7VG7372;
+				DEVELOPMENT_TEAM = C74NHTAGK3;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GCC_UNROLL_LOOPS = YES;
@@ -593,6 +615,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		044631212AFDB0F4006850C6 /* XCRemoteSwiftPackageReference "RichText" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/NuPlay/RichText.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		044631222AFDB0F4006850C6 /* RichText */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 044631212AFDB0F4006850C6 /* XCRemoteSwiftPackageReference "RichText" */;
+			productName = RichText;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 047329D82AFD54D200616A26 /* Project object */;
 }
