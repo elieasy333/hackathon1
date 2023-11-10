@@ -1,3 +1,5 @@
+// Created by Sydnie Johnson 11/09/2023
+
 import SwiftUI
 
 struct ResHallView {
