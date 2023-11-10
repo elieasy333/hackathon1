@@ -14,9 +14,9 @@
 		FEFF26352AFE64C4007C0AD1 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFF26342AFE64C4007C0AD1 /* Message.swift */; };
 		FEFF26372AFE64C8007C0AD1 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFF26362AFE64C8007C0AD1 /* MessageView.swift */; };
 		FEFF26392AFE653F007C0AD1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFF26382AFE653F007C0AD1 /* ContentView.swift */; };
-		FEFF263D2AFE6E85007C0AD1 /* Sending Noti from app.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFF263A2AFE6E85007C0AD1 /* Sending Noti from app.swift */; };
-		FEFF263E2AFE6E85007C0AD1 /* App delagate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFF263B2AFE6E85007C0AD1 /* App delagate.swift */; };
-		FEFF263F2AFE6E85007C0AD1 /* Local Push Notification.swift in Resources */ = {isa = PBXBuildFile; fileRef = FEFF263C2AFE6E85007C0AD1 /* Local Push Notification.swift */; };
+		FEFF263D2AFE6E85007C0AD1 /* SendingNotiFromApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFF263A2AFE6E85007C0AD1 /* SendingNotiFromApp.swift */; };
+		FEFF263E2AFE6E85007C0AD1 /* AppDelagate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFF263B2AFE6E85007C0AD1 /* AppDelagate.swift */; };
+		FEFF263F2AFE6E85007C0AD1 /* LocalPushNotification.swift in Resources */ = {isa = PBXBuildFile; fileRef = FEFF263C2AFE6E85007C0AD1 /* LocalPushNotification.swift */; };
 		FEFF26422AFE6F8C007C0AD1 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = FEFF26412AFE6F8C007C0AD1 /* FirebaseAnalytics */; };
 		FEFF26442AFE6F8C007C0AD1 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = FEFF26432AFE6F8C007C0AD1 /* FirebaseAnalyticsOnDeviceConversion */; };
 		FEFF26462AFE6F8C007C0AD1 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FEFF26452AFE6F8C007C0AD1 /* FirebaseAnalyticsSwift */; };
@@ -55,9 +55,9 @@
 		FEFF26342AFE64C4007C0AD1 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		FEFF26362AFE64C8007C0AD1 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
 		FEFF26382AFE653F007C0AD1 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		FEFF263A2AFE6E85007C0AD1 /* Sending Noti from app.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Sending Noti from app.swift"; sourceTree = "<group>"; };
-		FEFF263B2AFE6E85007C0AD1 /* App delagate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "App delagate.swift"; sourceTree = "<group>"; };
-		FEFF263C2AFE6E85007C0AD1 /* Local Push Notification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Local Push Notification.swift"; sourceTree = "<group>"; };
+		FEFF263A2AFE6E85007C0AD1 /* SendingNotiFromApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendingNotiFromApp.swift; sourceTree = "<group>"; };
+		FEFF263B2AFE6E85007C0AD1 /* AppDelagate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelagate.swift; sourceTree = "<group>"; };
+		FEFF263C2AFE6E85007C0AD1 /* LocalPushNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalPushNotification.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,9 +117,9 @@
 		FEFF26182AFE61C7007C0AD1 /* Hackathon_Client */ = {
 			isa = PBXGroup;
 			children = (
-				FEFF263A2AFE6E85007C0AD1 /* Sending Noti from app.swift */,
-				FEFF263C2AFE6E85007C0AD1 /* Local Push Notification.swift */,
-				FEFF263B2AFE6E85007C0AD1 /* App delagate.swift */,
+				FEFF263A2AFE6E85007C0AD1 /* SendingNotiFromApp.swift */,
+				FEFF263C2AFE6E85007C0AD1 /* LocalPushNotification.swift */,
+				FEFF263B2AFE6E85007C0AD1 /* AppDelagate.swift */,
 				FEFF26292AFE6391007C0AD1 /* HomeView.swift */,
 				FEFF26322AFE64A7007C0AD1 /* Assets.xcassets */,
 				FEFF26382AFE653F007C0AD1 /* ContentView.swift */,
@@ -230,7 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEFF26332AFE64A7007C0AD1 /* Assets.xcassets in Resources */,
-				FEFF263F2AFE6E85007C0AD1 /* Local Push Notification.swift in Resources */,
+				FEFF263F2AFE6E85007C0AD1 /* LocalPushNotification.swift in Resources */,
 				FEFF26212AFE61C8007C0AD1 /* Preview Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -243,12 +243,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEFF262A2AFE6391007C0AD1 /* HomeView.swift in Sources */,
-				FEFF263D2AFE6E85007C0AD1 /* Sending Noti from app.swift in Sources */,
+				FEFF263D2AFE6E85007C0AD1 /* SendingNotiFromApp.swift in Sources */,
 				FEFF26392AFE653F007C0AD1 /* ContentView.swift in Sources */,
 				FEFF26352AFE64C4007C0AD1 /* Message.swift in Sources */,
 				FEFF261A2AFE61C7007C0AD1 /* Hackathon_ClientApp.swift in Sources */,
 				FEFF26372AFE64C8007C0AD1 /* MessageView.swift in Sources */,
-				FEFF263E2AFE6E85007C0AD1 /* App delagate.swift in Sources */,
+				FEFF263E2AFE6E85007C0AD1 /* AppDelagate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
