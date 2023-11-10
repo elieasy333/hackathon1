@@ -14,6 +14,11 @@
 		FEFF26352AFE64C4007C0AD1 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFF26342AFE64C4007C0AD1 /* Message.swift */; };
 		FEFF26372AFE64C8007C0AD1 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFF26362AFE64C8007C0AD1 /* MessageView.swift */; };
 		FEFF26392AFE653F007C0AD1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFF26382AFE653F007C0AD1 /* ContentView.swift */; };
+		FEFF267D2AFE8640007C0AD1 /* SettingsTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFF26772AFE863F007C0AD1 /* SettingsTab.swift */; };
+		FEFF267E2AFE8640007C0AD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEFF26782AFE863F007C0AD1 /* Assets.xcassets */; };
+		FEFF267F2AFE8640007C0AD1 /* ClubsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFF26792AFE863F007C0AD1 /* ClubsView.swift */; };
+		FEFF26812AFE8640007C0AD1 /* MajorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFF267B2AFE8640007C0AD1 /* MajorView.swift */; };
+		FEFF26822AFE8640007C0AD1 /* ResHallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFF267C2AFE8640007C0AD1 /* ResHallView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +30,11 @@
 		FEFF26342AFE64C4007C0AD1 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		FEFF26362AFE64C8007C0AD1 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
 		FEFF26382AFE653F007C0AD1 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FEFF26772AFE863F007C0AD1 /* SettingsTab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTab.swift; sourceTree = "<group>"; };
+		FEFF26782AFE863F007C0AD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEFF26792AFE863F007C0AD1 /* ClubsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClubsView.swift; sourceTree = "<group>"; };
+		FEFF267B2AFE8640007C0AD1 /* MajorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MajorView.swift; sourceTree = "<group>"; };
+		FEFF267C2AFE8640007C0AD1 /* ResHallView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResHallView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +67,11 @@
 		FEFF26182AFE61C7007C0AD1 /* Hackathon_Client */ = {
 			isa = PBXGroup;
 			children = (
+				FEFF26782AFE863F007C0AD1 /* Assets.xcassets */,
+				FEFF26792AFE863F007C0AD1 /* ClubsView.swift */,
+				FEFF267B2AFE8640007C0AD1 /* MajorView.swift */,
+				FEFF267C2AFE8640007C0AD1 /* ResHallView.swift */,
+				FEFF26772AFE863F007C0AD1 /* SettingsTab.swift */,
 				FEFF26292AFE6391007C0AD1 /* HomeView.swift */,
 				FEFF26322AFE64A7007C0AD1 /* Assets.xcassets */,
 				FEFF26382AFE653F007C0AD1 /* ContentView.swift */,
@@ -135,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEFF26332AFE64A7007C0AD1 /* Assets.xcassets in Resources */,
+				FEFF267E2AFE8640007C0AD1 /* Assets.xcassets in Resources */,
 				FEFF26212AFE61C8007C0AD1 /* Preview Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,10 +162,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEFF267D2AFE8640007C0AD1 /* SettingsTab.swift in Sources */,
 				FEFF262A2AFE6391007C0AD1 /* HomeView.swift in Sources */,
+				FEFF267F2AFE8640007C0AD1 /* ClubsView.swift in Sources */,
 				FEFF26392AFE653F007C0AD1 /* ContentView.swift in Sources */,
 				FEFF26352AFE64C4007C0AD1 /* Message.swift in Sources */,
+				FEFF26822AFE8640007C0AD1 /* ResHallView.swift in Sources */,
 				FEFF261A2AFE61C7007C0AD1 /* Hackathon_ClientApp.swift in Sources */,
+				FEFF26812AFE8640007C0AD1 /* MajorView.swift in Sources */,
 				FEFF26372AFE64C8007C0AD1 /* MessageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
