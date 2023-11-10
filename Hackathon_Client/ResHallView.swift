@@ -22,20 +22,28 @@ struct ResHallView {
         .background(.orange)
         .forgroundStyle(.black)
         .frame(maxWidth: 150, minHeight: 20)
+        
         Text("-Branch Hall")
         .forgroundStyle(.black)
+        
         Text("-Howard Hall")
         .forgroundStyle(.black)
+        
         Text("-Campbell Hall")
         .forgroundStyle(.black)
+        
         Text("-Langston Hall")
         .forgroundStyle(.black)
+
         Text("-Seward Hall")
         .forgroundStyle(.black)
+        
         Text("-Williams Hall")
         .forgroundStyle(.black)
+        
         Text("-Quad I")
         .forgroundStyle(.black)
+        
       }
 
       VStack{
@@ -44,13 +52,17 @@ struct ResHallView {
         .font(.title)
         .background(.orange)
         .forgroundStyle(.black)
-        .frame(maxWidth: 150, minHeight: 20)
+        .frame(maxWidth: 150, minHeight: 20
+              
         Text("-Gateway Hall")
         .forgroundStyle(.black)
+               
         Text("-Moore Hall")
         .forgroundStyle(.black)
+               
         Text("-Quad II")
         .forgroundStyle(.black)
+               
         Text("-Whitting Hall")
         .forgroundStyle(.black)
       }
