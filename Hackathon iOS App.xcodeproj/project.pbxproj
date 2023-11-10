@@ -11,6 +11,13 @@
 		0446311F2AFDACFC006850C6 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0446311D2AFDACFB006850C6 /* Message.swift */; };
 		044631202AFDACFC006850C6 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0446311E2AFDACFB006850C6 /* MessageView.swift */; };
 		044631232AFDB0F4006850C6 /* RichText in Frameworks */ = {isa = PBXBuildFile; productRef = 044631222AFDB0F4006850C6 /* RichText */; };
+		0446312B2AFDC14B006850C6 /* iOS_for_realApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0446312A2AFDC14B006850C6 /* iOS_for_realApp.swift */; };
+		0446312D2AFDC14B006850C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0446312C2AFDC14B006850C6 /* ContentView.swift */; };
+		0446312F2AFDC152006850C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0446312E2AFDC152006850C6 /* Assets.xcassets */; };
+		044631322AFDC152006850C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044631312AFDC152006850C6 /* Preview Assets.xcassets */; };
+		0446313C2AFDC152006850C6 /* iOS_for_realTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0446313B2AFDC152006850C6 /* iOS_for_realTests.swift */; };
+		044631462AFDC152006850C6 /* iOS_for_realUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044631452AFDC152006850C6 /* iOS_for_realUITests.swift */; };
+		044631482AFDC152006850C6 /* iOS_for_realUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044631472AFDC152006850C6 /* iOS_for_realUITestsLaunchTests.swift */; };
 		047329E42AFD54D200616A26 /* Hackathon_iOS_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047329E32AFD54D200616A26 /* Hackathon_iOS_AppApp.swift */; };
 		047329E62AFD54D200616A26 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047329E52AFD54D200616A26 /* ContentView.swift */; };
 		047329E82AFD54D800616A26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047329E72AFD54D800616A26 /* Assets.xcassets */; };
@@ -22,6 +29,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		044631382AFDC152006850C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 047329D82AFD54D200616A26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 044631272AFDC14B006850C6;
+			remoteInfo = "iOS for real";
+		};
+		044631422AFDC152006850C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 047329D82AFD54D200616A26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 044631272AFDC14B006850C6;
+			remoteInfo = "iOS for real";
+		};
 		047329F22AFD54D900616A26 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 047329D82AFD54D200616A26 /* Project object */;
@@ -42,6 +63,16 @@
 		0446311B2AFDA92C006850C6 /* demo_message.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = demo_message.html; sourceTree = "<group>"; };
 		0446311D2AFDACFB006850C6 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		0446311E2AFDACFB006850C6 /* MessageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		044631282AFDC14B006850C6 /* iOS for real.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS for real.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0446312A2AFDC14B006850C6 /* iOS_for_realApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_for_realApp.swift; sourceTree = "<group>"; };
+		0446312C2AFDC14B006850C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0446312E2AFDC152006850C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		044631312AFDC152006850C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		044631372AFDC152006850C6 /* iOS for realTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS for realTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0446313B2AFDC152006850C6 /* iOS_for_realTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_for_realTests.swift; sourceTree = "<group>"; };
+		044631412AFDC152006850C6 /* iOS for realUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS for realUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		044631452AFDC152006850C6 /* iOS_for_realUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_for_realUITests.swift; sourceTree = "<group>"; };
+		044631472AFDC152006850C6 /* iOS_for_realUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_for_realUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		047329E02AFD54D200616A26 /* Hackathon iOS App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hackathon iOS App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		047329E32AFD54D200616A26 /* Hackathon_iOS_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hackathon_iOS_AppApp.swift; sourceTree = "<group>"; };
 		047329E52AFD54D200616A26 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +88,27 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		044631252AFDC14B006850C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044631342AFDC152006850C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0446313E2AFDC152006850C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		047329DD2AFD54D200616A26 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -82,6 +134,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		044631292AFDC14B006850C6 /* iOS for real */ = {
+			isa = PBXGroup;
+			children = (
+				0446312A2AFDC14B006850C6 /* iOS_for_realApp.swift */,
+				0446312C2AFDC14B006850C6 /* ContentView.swift */,
+				0446312E2AFDC152006850C6 /* Assets.xcassets */,
+				044631302AFDC152006850C6 /* Preview Content */,
+			);
+			path = "iOS for real";
+			sourceTree = "<group>";
+		};
+		044631302AFDC152006850C6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				044631312AFDC152006850C6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0446313A2AFDC152006850C6 /* iOS for realTests */ = {
+			isa = PBXGroup;
+			children = (
+				0446313B2AFDC152006850C6 /* iOS_for_realTests.swift */,
+			);
+			path = "iOS for realTests";
+			sourceTree = "<group>";
+		};
+		044631442AFDC152006850C6 /* iOS for realUITests */ = {
+			isa = PBXGroup;
+			children = (
+				044631452AFDC152006850C6 /* iOS_for_realUITests.swift */,
+				044631472AFDC152006850C6 /* iOS_for_realUITestsLaunchTests.swift */,
+			);
+			path = "iOS for realUITests";
+			sourceTree = "<group>";
+		};
 		047329D72AFD54D200616A26 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +177,9 @@
 				047329E22AFD54D200616A26 /* Hackathon iOS App */,
 				047329F42AFD54D900616A26 /* Hackathon iOS AppTests */,
 				047329FE2AFD54D900616A26 /* Hackathon iOS AppUITests */,
+				044631292AFDC14B006850C6 /* iOS for real */,
+				0446313A2AFDC152006850C6 /* iOS for realTests */,
+				044631442AFDC152006850C6 /* iOS for realUITests */,
 				047329E12AFD54D200616A26 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,6 +190,9 @@
 				047329E02AFD54D200616A26 /* Hackathon iOS App.app */,
 				047329F12AFD54D900616A26 /* Hackathon iOS AppTests.xctest */,
 				047329FB2AFD54D900616A26 /* Hackathon iOS AppUITests.xctest */,
+				044631282AFDC14B006850C6 /* iOS for real.app */,
+				044631372AFDC152006850C6 /* iOS for realTests.xctest */,
+				044631412AFDC152006850C6 /* iOS for realUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -146,6 +240,59 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		044631272AFDC14B006850C6 /* iOS for real */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044631492AFDC152006850C6 /* Build configuration list for PBXNativeTarget "iOS for real" */;
+			buildPhases = (
+				044631242AFDC14B006850C6 /* Sources */,
+				044631252AFDC14B006850C6 /* Frameworks */,
+				044631262AFDC14B006850C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS for real";
+			productName = "iOS for real";
+			productReference = 044631282AFDC14B006850C6 /* iOS for real.app */;
+			productType = "com.apple.product-type.application";
+		};
+		044631362AFDC152006850C6 /* iOS for realTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0446314C2AFDC152006850C6 /* Build configuration list for PBXNativeTarget "iOS for realTests" */;
+			buildPhases = (
+				044631332AFDC152006850C6 /* Sources */,
+				044631342AFDC152006850C6 /* Frameworks */,
+				044631352AFDC152006850C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				044631392AFDC152006850C6 /* PBXTargetDependency */,
+			);
+			name = "iOS for realTests";
+			productName = "iOS for realTests";
+			productReference = 044631372AFDC152006850C6 /* iOS for realTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		044631402AFDC152006850C6 /* iOS for realUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0446314F2AFDC152006850C6 /* Build configuration list for PBXNativeTarget "iOS for realUITests" */;
+			buildPhases = (
+				0446313D2AFDC152006850C6 /* Sources */,
+				0446313E2AFDC152006850C6 /* Frameworks */,
+				0446313F2AFDC152006850C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				044631432AFDC152006850C6 /* PBXTargetDependency */,
+			);
+			name = "iOS for realUITests";
+			productName = "iOS for realUITests";
+			productReference = 044631412AFDC152006850C6 /* iOS for realUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		047329DF2AFD54D200616A26 /* Hackathon iOS App */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04732A052AFD54D900616A26 /* Build configuration list for PBXNativeTarget "Hackathon iOS App" */;
@@ -212,6 +359,17 @@
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
+					044631272AFDC14B006850C6 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					044631362AFDC152006850C6 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 044631272AFDC14B006850C6;
+					};
+					044631402AFDC152006850C6 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 044631272AFDC14B006850C6;
+					};
 					047329DF2AFD54D200616A26 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -244,11 +402,37 @@
 				047329DF2AFD54D200616A26 /* Hackathon iOS App */,
 				047329F02AFD54D900616A26 /* Hackathon iOS AppTests */,
 				047329FA2AFD54D900616A26 /* Hackathon iOS AppUITests */,
+				044631272AFDC14B006850C6 /* iOS for real */,
+				044631362AFDC152006850C6 /* iOS for realTests */,
+				044631402AFDC152006850C6 /* iOS for realUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		044631262AFDC14B006850C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044631322AFDC152006850C6 /* Preview Assets.xcassets in Resources */,
+				0446312F2AFDC152006850C6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044631352AFDC152006850C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0446313F2AFDC152006850C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		047329DE2AFD54D200616A26 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -276,6 +460,32 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		044631242AFDC14B006850C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0446312D2AFDC14B006850C6 /* ContentView.swift in Sources */,
+				0446312B2AFDC14B006850C6 /* iOS_for_realApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044631332AFDC152006850C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0446313C2AFDC152006850C6 /* iOS_for_realTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0446313D2AFDC152006850C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044631482AFDC152006850C6 /* iOS_for_realUITestsLaunchTests.swift in Sources */,
+				044631462AFDC152006850C6 /* iOS_for_realUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		047329DC2AFD54D200616A26 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -308,6 +518,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		044631392AFDC152006850C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 044631272AFDC14B006850C6 /* iOS for real */;
+			targetProxy = 044631382AFDC152006850C6 /* PBXContainerItemProxy */;
+		};
+		044631432AFDC152006850C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 044631272AFDC14B006850C6 /* iOS for real */;
+			targetProxy = 044631422AFDC152006850C6 /* PBXContainerItemProxy */;
+		};
 		047329F32AFD54D900616A26 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 047329DF2AFD54D200616A26 /* Hackathon iOS App */;
@@ -321,6 +541,147 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0446314A2AFDC152006850C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS for real/Preview Content\"";
+				DEVELOPMENT_TEAM = C74NHTAGK3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hackathon2023Group4.iOS-for-real";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0446314B2AFDC152006850C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS for real/Preview Content\"";
+				DEVELOPMENT_TEAM = C74NHTAGK3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hackathon2023Group4.iOS-for-real";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0446314D2AFDC152006850C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C74NHTAGK3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hackathon2023Group4.iOS-for-realTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS for real.app/iOS for real";
+			};
+			name = Debug;
+		};
+		0446314E2AFDC152006850C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C74NHTAGK3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hackathon2023Group4.iOS-for-realTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS for real.app/iOS for real";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		044631502AFDC152006850C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C74NHTAGK3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hackathon2023Group4.iOS-for-realUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS for real";
+			};
+			name = Debug;
+		};
+		044631512AFDC152006850C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C74NHTAGK3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hackathon2023Group4.iOS-for-realUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS for real";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		04732A032AFD54D900616A26 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -578,6 +939,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		044631492AFDC152006850C6 /* Build configuration list for PBXNativeTarget "iOS for real" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0446314A2AFDC152006850C6 /* Debug */,
+				0446314B2AFDC152006850C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0446314C2AFDC152006850C6 /* Build configuration list for PBXNativeTarget "iOS for realTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0446314D2AFDC152006850C6 /* Debug */,
+				0446314E2AFDC152006850C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0446314F2AFDC152006850C6 /* Build configuration list for PBXNativeTarget "iOS for realUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044631502AFDC152006850C6 /* Debug */,
+				044631512AFDC152006850C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		047329DB2AFD54D200616A26 /* Build configuration list for PBXProject "Hackathon iOS App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
