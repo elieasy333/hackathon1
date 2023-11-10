@@ -2,10 +2,13 @@ import SwiftUI
 struct ClubsView: View{
   var body: some View{
     Vstack{
+      // The title of the page
       Text("Organizations")
       .font(.largeTitle)
       .padding(.bottom, 40)
-      VStack{
+
+      //This section is a horizontal stack of the types of clubs that are available on campus for students
+      HStack{
         Text("Active Minds- The purpose of Virginia State University's chapter of Active Minds is to raise awareness about mental health and serve as a liaison between the student body and the university's counseling center.") 
         Spacer(minLength: 200)
         
