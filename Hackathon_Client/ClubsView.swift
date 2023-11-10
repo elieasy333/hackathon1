@@ -12,4 +12,20 @@ struct ClubsView: View{
         Text("Golden Key International Honor Society- The purpose of this organization shall be to enable members to realize their potential through the advancement  of academics, leadership, and service.")
         Spacer(minLength: 200)
 
-        Text("The Men of New Wter, Inc.- The Men of New Water is an all-male mentoring organization designed to  promote growth in young men by giving 
+        Text("The Men of New Wter, Inc.- The Men of New Water is an all-male mentoring organization designed to  promote growth in young men by giving them tools to become exceptional citizens and future leaders.")
+        Spacer(minLength: 200)
+
+        Text ("National Association for the Advancement of Colored People (NAACP)- The mission of the NAACP is to ensure the political, educational social, and economic equality of rights of all persons and to eliminate racial hatred and racial discrimination.")
+      }
+      .padding()
+      Divider()
+    }
+  }
+}
+struct ClubsView_Previews: PreviewProvider {
+  static var previews: some View{
+    ClubsView()
+  }
+}
+      
+      
