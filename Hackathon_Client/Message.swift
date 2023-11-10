@@ -7,19 +7,24 @@
 
 import Foundation
 
-class Message {
-	var subject = "No Subject"
-	// like an email subject
-	
-	var sender = "No Sender"
-	// which department or person is broadcasting this message?
-	
-	var human = ""
-	// who actually wrote the message?
-	
-	var textType = "text" // or "html"
-	// What format should the body by read in
-	
-	var body = ""
-	// This string contains the actual text of the body
+enum TextType: Hashable, Codable {
+    case plain
+    case html
+}
+
+struct Landmark: Hashable, Codable {
+    var subject: String
+    // like an email subject
+    
+    var sender: String
+    // which department or person is broadcasting this message?
+    
+    var human: Optional<String>
+    // who actually wrote the message?
+    
+    var textType: TextType
+    // who actually wrote the message?
+    
+    var body: String
+    // This string contains the actual text of the body
 }
